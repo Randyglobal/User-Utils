@@ -1,0 +1,29 @@
+@import './setup';
+
+@mixin powerStyle ($height, $left, $top, $background) {
+    width: 75%;
+    height: $height;
+    background: $background;
+    position: absolute;
+    top: $top;
+    left: $left;
+    border-radius: 7px;
+}
+
+@mixin buttonStyle ($width, $margin-top){
+    width: $width;
+    height: 25px;
+    margin-top: $margin-top;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    &:hover{
+        background: white;
+        color: rgb(10, 143, 187);
+}
+}
+
+@import './main';

@@ -1,0 +1,71 @@
+main{
+    width: 100%;
+    height: 70vh;
+    // background: yellow;
+    position: relative;
+
+     .secondDiv{
+        width: 430px;
+        height: 600px;
+        margin: auto;
+        margin-top: 20px;
+        border-radius: 40px;
+        background: rgba(0, 0, 108, 0.87);
+        position: relative;
+
+        .mainScreen{
+            @include powerStyle (100px, 55px, 30px, rgb(1, 152, 1));
+
+
+            .operationSense{
+                margin-top: 5px;
+            }
+
+            input{
+                width: 95%;
+                height: 45px;
+                margin-left: 8px;
+                border: none;
+                outline: none;
+                background: rgb(1, 152, 1);
+            }
+        }
+        .powerButton{
+            @include powerStyle (70px, 55px, 150px, transparent);
+            display: flex;
+            justify-content: space-between;
+
+            button{
+                @include buttonStyle (40px, 10px);
+                background: rgb(10, 143, 187);
+            }
+
+            .replayBtn{
+                width: 50px;
+                height: 50px;
+                border-radius: 10px;
+            }
+        }
+        .arithmeticScientific{
+            @include powerStyle(340px, 55px, 230px, transparent );
+
+            .arithScien{
+                width: 100%;
+                height: 40px;
+                margin-top: 10px;
+               
+        
+                button{
+                    @include buttonStyle (50px,5px);
+                    margin-left: 14px;
+                    background: rgb(10, 143, 187);
+                }
+                .firstBtn{
+                    margin-left: 0px;
+                }
+            }
+        }
+     }
+   
+}   
+// styles not completed

@@ -1,1 +1,123 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  width: 100%;
+  height: 70vh;
+  position: relative;
+}
+
+main .secondDiv {
+  width: 430px;
+  height: 600px;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 40px;
+  background: rgba(0, 0, 108, 0.87);
+  position: relative;
+}
+
+main .secondDiv .mainScreen {
+  width: 75%;
+  height: 100px;
+  background: #019801;
+  position: absolute;
+  top: 30px;
+  left: 55px;
+  border-radius: 7px;
+}
+
+main .secondDiv .mainScreen .operationSense {
+  margin-top: 5px;
+}
+
+main .secondDiv .mainScreen input {
+  width: 95%;
+  height: 45px;
+  margin-left: 8px;
+  border: none;
+  outline: none;
+  background: #019801;
+}
+
+main .secondDiv .powerButton {
+  width: 75%;
+  height: 70px;
+  background: transparent;
+  position: absolute;
+  top: 150px;
+  left: 55px;
+  border-radius: 7px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main .secondDiv .powerButton button {
+  width: 40px;
+  height: 25px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  background: #0a8fbb;
+}
+
+main .secondDiv .powerButton button:hover {
+  background: white;
+  color: #0a8fbb;
+}
+
+main .secondDiv .powerButton .replayBtn {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+}
+
+main .secondDiv .arithmeticScientific {
+  width: 75%;
+  height: 340px;
+  background: transparent;
+  position: absolute;
+  top: 230px;
+  left: 55px;
+  border-radius: 7px;
+}
+
+main .secondDiv .arithmeticScientific .arithScien {
+  width: 100%;
+  height: 40px;
+  margin-top: 10px;
+}
+
+main .secondDiv .arithmeticScientific .arithScien button {
+  width: 50px;
+  height: 25px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  margin-left: 14px;
+  background: #0a8fbb;
+}
+
+main .secondDiv .arithmeticScientific .arithScien button:hover {
+  background: white;
+  color: #0a8fbb;
+}
+
+main .secondDiv .arithmeticScientific .arithScien .firstBtn {
+  margin-left: 0px;
+}
+/*# sourceMappingURL=style.css.map */
