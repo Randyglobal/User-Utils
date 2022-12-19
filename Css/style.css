@@ -120,4 +120,8 @@ main .secondDiv .arithmeticScientific .arithScien button:hover {
 main .secondDiv .arithmeticScientific .arithScien .firstBtn {
   margin-left: 0px;
 }
+
+main .secondDiv .arithmeticScientific .arithScien #firstBtn, main .secondDiv .arithmeticScientific .arithScien #firsBtn, main .secondDiv .arithmeticScientific .arithScien #firBtn, main .secondDiv .arithmeticScientific .arithScien #fitBtn {
+  margin-left: 0px;
+}
 /*# sourceMappingURL=style.css.map */
