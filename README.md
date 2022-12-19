@@ -22,4 +22,16 @@ TURN ON LOCATION, MAKE SURE YOU ARE CONNECTED TO THE INTERNET
 
 -Building interface using HTML and CSS
 
-2)CALENDAR
+2)CALCULATOR
+-Screens: I will include two screens, that is;
+        Operation screen
+        Answer screen
+-Buttons: I will have buttons for the following
+          Numeric buttons
+          Digits
+          Function
+        The buttons are supposed to perform operations, that is;
+              Arithmetic Operations
+              Scientific & Logical Operations
+-Building interface using HTML and CSS
+
