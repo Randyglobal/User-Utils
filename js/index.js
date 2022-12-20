@@ -15,6 +15,9 @@ const arithmeticOps = document.querySelectorAll('button.arithOps');
 //clear
 const clearAll = document.querySelectorAll('button.calFunction');
 
+//sciencetific operation
+const scienceOps = document.querySelectorAll('button.scienceOps');
+
 //operation on digits
 //i tried to call a function here using .forEach forgeting that i did not assign the value as a 
 // function. I can just add the event listener directly.
@@ -52,8 +55,27 @@ clearAll.forEach(clearFunc => {
         }
         //to delete
         if(clickedOperator == 'DEL'){
+            //this code too can be used for deleting
+            // operationScreen.value = operationValue.slice(0, -1)
+            // operationValue = operationScreen.value
             let randy = operationScreen.value;
             operationScreen.value = randy.substr(0, randy.length - 1);
-        }
+        };
+    });
+});
+
+scienceOps.forEach(operation => {
+    operation.addEventListener('click', (event) => {
+        event.preventDefault();
+        const checkedScientificOperator = event.target.innerText;
+        operationScreen.value += checkedScientificOperator
+
+    if(checkedScientificOperator == 'sqrt'){
+        const square = operationScreen.value;
+        const answer = math.sqrt(square);
+       answerScreen.value =answer;
+    }else{
+        operationScreen.value = event.target.innerText;
+    }
     })
 })

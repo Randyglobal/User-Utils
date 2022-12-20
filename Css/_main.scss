@@ -3,18 +3,20 @@ main{
     height: 70vh;
     // background: yellow;
     position: relative;
+    
 
      .secondDiv{
-        width: 430px;
+        width: 410px;
         height: 600px;
         margin: auto;
         margin-top: 20px;
         border-radius: 40px;
         background: rgba(0, 0, 108, 0.87);
         position: relative;
+        box-shadow: 1px 1px 2px 3px lightblue;
 
         .mainScreen{
-            @include powerStyle (100px, 55px, 30px, rgb(1, 152, 1));
+            @include powerStyle (75%, 100px, 50px, 30px, rgb(1, 152, 1));
 
 
             .operationSense{
@@ -29,9 +31,13 @@ main{
                 outline: none;
                 background: rgb(1, 152, 1);
             }
+            ::placeholder{
+                color: black;
+                font-size: 16px;
+            }
         }
         .powerButton{
-            @include powerStyle (70px, 55px, 150px, transparent);
+            @include powerStyle (75%, 70px, 50px, 150px, transparent);
             display: flex;
             justify-content: space-between;
 
@@ -47,7 +53,7 @@ main{
             }
         }
         .arithmeticScientific{
-            @include powerStyle(340px, 55px, 230px, transparent );
+            @include powerStyle(80%, 340px, 43px, 230px, transparent );
 
             .arithScien{
                 width: 100%;
@@ -59,12 +65,21 @@ main{
                     @include buttonStyle (50px,5px);
                     margin-left: 14px;
                     background: rgb(10, 143, 187);
+                    
                 }
                 .firstBtn{
                     margin-left: 0px;
                 }
                 #firstBtn, #firsBtn, #firBtn, #fitBtn{
                     margin-left: 0px;
+            }
+            .DEL, .AC, .Ans, .equal {
+                  background: yellow;
+                  color: black;
+                  &:hover{
+                    color: white;
+                    background: rgb(10, 143, 187);
+                  }
             }
         }
      }
