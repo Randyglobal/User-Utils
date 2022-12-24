@@ -756,24 +756,131 @@ main .secondDiv .arithmeticScientific .arithScien .DEL:hover, main .secondDiv .a
   width: 88%;
   height: inherit;
   background: transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
-.body .groupConatainer .groupRight .topDiv {
-  width: 400px;
-  height: 100px;
+.body .groupConatainer .groupRight .leftSide {
+  width: 55%;
+  height: 85vh;
+  margin-top: 10px;
+}
+
+.body .groupConatainer .groupRight .leftSide .topDiv {
+  width: 450px;
+  height: 120px;
   background: rgba(255, 177, 32, 0.976);
   border-radius: 10px;
   margin: 30px 0 0 30px;
 }
 
-.body .groupConatainer .groupRight .topDiv .sideDiv {
+.body .groupConatainer .groupRight .leftSide .topDiv .sideDiv {
   width: 30%;
   height: inherit;
-  background-image: url(/Images/);
-  margin-left: 300px;
+  background-image: url(/Images/comp.jpeg);
+  margin-left: 290px;
   background-repeat: no-repeat;
   background-size: cover;
-  -webkit-filter: blur();
-          filter: blur();
+  border-radius: 15px;
+}
+
+.body .groupConatainer .groupRight .rightSide {
+  width: 40%;
+  height: inherit;
+}
+
+.body .groupConatainer .groupRight .rightSide .headDiv {
+  width: 130px;
+  height: 45px;
+  margin: 45px 0 0 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.body .groupConatainer .groupRight .rightSide .headDiv i {
+  font-size: 19px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.body .groupConatainer .groupRight .rightSide .headDiv .profile {
+  width: 50px;
+  height: inherit;
+  background-image: url(/Images/profile.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 8px;
+}
+
+.body .groupConatainer .groupRight .rightSide .otherFunctions {
+  width: 330px;
+  height: 70vh;
+  background: rgba(198, 198, 198, 0.324);
+  margin: 40px 0 0 32px;
+  border-radius: 15px;
+  position: relative;
+}
+
+.body .groupConatainer .groupRight .rightSide .otherFunctions .subFunctions {
+  width: 250px;
+  height: 100px;
+  top: 20px;
+  left: 40px;
+  position: relative;
+}
+
+.body .groupConatainer .groupRight .rightSide .otherFunctions .subFunctions .center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  top: 40px;
+}
+
+.body .groupConatainer .groupRight .rightSide .otherFunctions .subFunctions .center a {
+  text-decoration: none;
+  color: white;
+}
+
+.body .groupConatainer .groupRight .rightSide .otherFunctions .subFunctions .center .miniFunctions {
+  width: 90px;
+  height: 30px;
+  background: rgba(255, 177, 32, 0.976);
+  text-align: center;
+  margin-left: 20px;
+  border-radius: 7px;
+}
+
+.body .groupConatainer .groupRight .rightSide .otherFunctions .subFunctions .center .miniOther {
+  width: 90px;
+  height: 30px;
+  background: blue;
+  text-align: center;
+  margin: 40px auto auto -140px;
+  border-radius: 7px;
+}
+
+.body .groupConatainer .groupRight .rightSide .otherFunctions h3 {
+  margin-top: 50px;
+  margin-left: 100px;
+}
+
+.body .groupConatainer .groupRight .rightSide .otherFunctions .statistics {
+  position: relative;
+  width: 270px;
+  height: 250px;
+  background-image: url(/Images/weather.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 10px;
+  left: 30px;
 }
 /*# sourceMappingURL=style.css.map */
