@@ -35,3 +35,5 @@ TURN ON LOCATION, MAKE SURE YOU ARE CONNECTED TO THE INTERNET
               Scientific & Logical Operations
 -Building interface using HTML and CSS
 
+The index page: This page is actually a dashboard which will contain all the User-Utils. they will be on the dashboard like small apps such that when u click on it appears on the dashboard with a  transparernent background.
+

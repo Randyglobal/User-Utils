@@ -29,14 +29,16 @@
 
 @import './main';
 @media (min-width: 1200px) {
-    @import './large';
+    @import './media/large';
 }
 @media (max-width: 992px) {
-    @import './normal';
+    @import './media/normal';
 }
 @media (max-width: 760px) {
-    @import './tablet';
+    @import './media/tablet';
 }
 @media (max-width: 350px) {
-    @import './mobile';
+    @import './media/mobile';
 }
+
+@import './group';

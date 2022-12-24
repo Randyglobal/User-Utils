@@ -17,6 +17,10 @@ const clearAll = document.querySelectorAll('button.calFunction');
 
 //sciencetific operation
 const scienceOps = document.querySelectorAll('button.scienceOps');
+//answer button
+const anwer = document.getElementsByClassName('Ans');
+//equal
+const equal = document.querySelector('button.equal');
 
 //operation on digits
 //i tried to call a function here using .forEach forgeting that i did not assign the value as a 
@@ -34,7 +38,7 @@ arithmeticOps.forEach(operator => {
         event.preventDefault();
         let clickedOperator = event.target.innerText;
         let result;
-        if(clickedOperator == '=' || clickedOperator == 'Ans'){
+        if(clickedOperator == '='){
             // const {operation,value} = operationParser(operationScreen.value);
             result = eval(operationScreen.value);
             answerScreen.value = result;
@@ -56,10 +60,11 @@ clearAll.forEach(clearFunc => {
         //to delete
         if(clickedOperator == 'DEL'){
             //this code too can be used for deleting
-            // operationScreen.value = operationValue.slice(0, -1)
+            let operationValue = operationScreen.value;
+            operationScreen.value = operationValue.slice(0, -1).toString();
             // operationValue = operationScreen.value
-            let randy = operationScreen.value;
-            operationScreen.value = randy.substr(0, randy.length - 1);
+            // let randy = operationScreen.value;
+            // operationScreen.value = randy.substr(0, randy.length - 1);
         };
     });
 });
@@ -78,4 +83,22 @@ scienceOps.forEach(operation => {
         operationScreen.value = event.target.innerText;
     }
     })
+});
+
+answerScreen.addEventListener('keyup', (event) =>{
+    const inputValue = event.target.value 
+    const getStatusFromStore = localStorage.getItem('start');
+    if(getStatusFromStore == 'true'){
+    if(inputValue == ""){ 
+        operationScreen.textContent = "No data after change"
+    }else{
+        operationScreen.textContent = inputValue
+    }
+}
 })
+anwer.addEventListener('click', (event) =>{
+    event.preventDefault();
+    //localStorage => WEB APIs
+    localStorage.setItem("start", true)
+  })
+

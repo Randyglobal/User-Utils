@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Arimo:wght@500&family=Cantarell:wght@400;700&family=Catamaran:wght@300&family=Titan+One&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -718,5 +719,61 @@ main .secondDiv .arithmeticScientific .arithScien .DEL:hover, main .secondDiv .a
     color: white;
     background: #0a8fbb;
   }
+}
+
+.body {
+  background: #ffdda1;
+  font-family: 'Catamaran', sans-serif;
+}
+
+.body .groupConatainer {
+  width: 75%;
+  height: 90vh;
+  margin: 30px auto;
+  border-radius: 20px;
+  background: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.body .groupConatainer .groupLeft {
+  width: 10%;
+  height: 87vh;
+  margin-top: 10px;
+  background: #0000b3;
+  border-radius: 10px;
+  margin-left: 20px;
+}
+
+.body .groupConatainer .groupLeft h3 {
+  color: white;
+  padding: 10px 0 0 10px;
+  font-weight: 300;
+}
+
+.body .groupConatainer .groupRight {
+  width: 88%;
+  height: inherit;
+  background: transparent;
+}
+
+.body .groupConatainer .groupRight .topDiv {
+  width: 400px;
+  height: 100px;
+  background: rgba(255, 177, 32, 0.976);
+  border-radius: 10px;
+  margin: 30px 0 0 30px;
+}
+
+.body .groupConatainer .groupRight .topDiv .sideDiv {
+  width: 30%;
+  height: inherit;
+  background-image: url(/Images/);
+  margin-left: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-filter: blur();
+          filter: blur();
 }
 /*# sourceMappingURL=style.css.map */

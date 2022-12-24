@@ -1,0 +1,55 @@
+.body {
+    background: rgb(255, 221, 161);
+    font-family: 'Catamaran', sans-serif;
+
+    .groupConatainer {
+        width: 75%;
+        height: 90vh;
+        margin: 30px auto;
+        border-radius: 20px;
+        background: white;
+        display: flex;
+
+        .groupLeft {
+            width: 10%;
+            height: 87vh;
+            margin-top: 10px;
+            background: rgb(0, 0, 179);
+            border-radius: 10px;
+            margin-left: 20px;
+            h3{
+                color: white;
+                padding: 10px 0 0 10px;
+                font-weight: 300;
+               
+            }
+
+         }
+
+         .groupRight{
+            width: 88%;
+            height: inherit;
+            background: transparent;
+
+            .topDiv{
+                width: 400px;
+                height: 100px;
+                background: rgba(255, 177, 32, 0.976);
+                border-radius: 10px;
+                margin: 30px 0 0 30px;
+
+                .sideDiv{
+                    width: 30%;
+                    height: inherit;
+                    background-image: url(/Images/);
+                    margin-left: 300px;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    filter: blur();
+                }
+            }
+
+         }
+
+    }
+}
