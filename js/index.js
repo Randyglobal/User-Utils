@@ -85,21 +85,21 @@ scienceOps.forEach(operation => {
     })
 });
 
-answerScreen.addEventListener('keyup', (event) =>{
-    const inputValue = event.target.value 
-    const getStatusFromStore = localStorage.getItem('start');
-    if(getStatusFromStore == 'true'){
-    if(inputValue == ""){ 
-        operationScreen.textContent = "No data after change"
-    }else{
-        operationScreen.textContent = inputValue
-    }
-}
-})
-anwer.addEventListener('click', (event) =>{
-    event.preventDefault();
-    //localStorage => WEB APIs
-    localStorage.setItem("start", true)
-  });
+// answerScreen.addEventListener('keyup', (event) =>{
+//     const inputValue = event.target.value 
+//     const getStatusFromStore = localStorage.getItem('start');
+//     if(getStatusFromStore == 'true'){
+//     if(inputValue == ""){ 
+//         operationScreen.textContent = "No data after change"
+//     }else{
+//         operationScreen.textContent = inputValue
+//     }
+// }
+// })
+// anwer.addEventListener('click', (event) =>{
+//     event.preventDefault();
+//     //localStorage => WEB APIs
+//     localStorage.setItem("start", true)
+//   });
   
 

@@ -727,7 +727,7 @@ main .secondDiv .arithmeticScientific .arithScien .DEL:hover, main .secondDiv .a
 }
 
 .body .groupConatainer {
-  width: 75%;
+  width: 1025px;
   height: 90vh;
   margin: 30px auto;
   border-radius: 20px;
@@ -842,7 +842,7 @@ main .secondDiv .arithmeticScientific .arithScien .DEL:hover, main .secondDiv .a
 
 .body .groupConatainer .groupRight .rightSide .otherFunctions {
   width: 330px;
-  height: 70vh;
+  height: 71vh;
   background: rgba(198, 198, 198, 0.324);
   margin: 40px 0 0 32px;
   border-radius: 15px;
@@ -909,18 +909,23 @@ main .secondDiv .arithmeticScientific .arithScien .DEL:hover, main .secondDiv .a
 }
 
 .name main input {
-  width: 170px;
+  width: 190px;
   padding: 10px;
   border-radius: 20px;
   outline: none;
   border: none;
-  margin: 40px  0 0 300px;
+  margin: 200px  0 0 600px;
+}
+
+.name main input:focus {
+  border: 2px solid red;
 }
 
 .name main button {
   width: 100px;
   padding: 10px;
-  margin-top: 100px;
+  margin-left: 660px;
+  margin-top: 40px;
   border-radius: 10px;
   cursor: pointer;
   font-size: 15px;

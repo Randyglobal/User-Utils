@@ -10,6 +10,13 @@ Which are
 As we  can judge, in our everyday life, we think of atleast three of these things. As such 
 i take this as a Project for level 2
 
+Before having access to the document, There is a login form where you have to confirm your your entry by inputing either your email or username and password.
+If you have no account, you will need to create an account by passing through the following steps
+-A form for firstName and lastName
+-A form to creatPassword 
+-A form to confirm Password
+-A form to agreement before Loging in
+
 Specifications
 1)WEATHER REPORT
 -API: Firstly we will need an API which enables the app to interact and share data
