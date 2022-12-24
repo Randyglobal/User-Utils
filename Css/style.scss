@@ -23,14 +23,14 @@
     transition: 0.8s;
     &:hover{
         background: white;
-        color: rgb(10, 143, 187);
+        color: rgb(10, 143, 187);     
 }
 }
 
 @import './main';
 @media (min-width: 1200px) {
     @import './media/large';
-}
+}   
 @media (max-width: 992px) {
     @import './media/normal';
 }
@@ -42,3 +42,4 @@
 }
 
 @import './group';
+@import './login';    

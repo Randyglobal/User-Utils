@@ -748,7 +748,7 @@ main .secondDiv .arithmeticScientific .arithScien .DEL:hover, main .secondDiv .a
 
 .body .groupConatainer .groupLeft h3 {
   color: white;
-  padding: 10px 0 0 10px;
+  padding: 30px 0 0 10px;
   font-weight: 300;
 }
 
@@ -771,6 +771,10 @@ main .secondDiv .arithmeticScientific .arithScien .DEL:hover, main .secondDiv .a
 }
 
 .body .groupConatainer .groupRight .leftSide .topDiv {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: white;
   width: 450px;
   height: 120px;
   background: rgba(255, 177, 32, 0.976);
@@ -778,14 +782,30 @@ main .secondDiv .arithmeticScientific .arithScien .DEL:hover, main .secondDiv .a
   margin: 30px 0 0 30px;
 }
 
+.body .groupConatainer .groupRight .leftSide .topDiv .left {
+  width: 200px;
+  margin-left: 10px;
+}
+
+.body .groupConatainer .groupRight .leftSide .topDiv .left p {
+  font-size: 20px;
+  padding-top: 20px;
+}
+
+.body .groupConatainer .groupRight .leftSide .topDiv .left h6 {
+  font-weight: 200;
+}
+
 .body .groupConatainer .groupRight .leftSide .topDiv .sideDiv {
-  width: 30%;
+  position: absolute;
+  width: 130px;
   height: inherit;
+  margin-left: 180px;
   background-image: url(/Images/comp.jpeg);
-  margin-left: 290px;
   background-repeat: no-repeat;
   background-size: cover;
-  border-radius: 15px;
+  top: 40px;
+  left: 250px;
 }
 
 .body .groupConatainer .groupRight .rightSide {
@@ -796,7 +816,7 @@ main .secondDiv .arithmeticScientific .arithScien .DEL:hover, main .secondDiv .a
 .body .groupConatainer .groupRight .rightSide .headDiv {
   width: 130px;
   height: 45px;
-  margin: 45px 0 0 200px;
+  margin: 40px 0 0 200px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -882,5 +902,31 @@ main .secondDiv .arithmeticScientific .arithScien .DEL:hover, main .secondDiv .a
   background-size: cover;
   top: 10px;
   left: 30px;
+}
+
+.name {
+  background: green;
+}
+
+.name main input {
+  width: 170px;
+  padding: 10px;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  margin: 40px  0 0 300px;
+}
+
+.name main button {
+  width: 100px;
+  padding: 10px;
+  margin-top: 100px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.name main a {
+  text-decoration: none;
 }
 /*# sourceMappingURL=style.css.map */

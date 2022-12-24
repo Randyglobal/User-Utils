@@ -100,5 +100,6 @@ anwer.addEventListener('click', (event) =>{
     event.preventDefault();
     //localStorage => WEB APIs
     localStorage.setItem("start", true)
-  })
+  });
+  
 

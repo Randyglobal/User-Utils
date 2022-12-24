@@ -20,7 +20,7 @@
 
             h3 {
                 color: white;
-                padding: 10px 0 0 10px;
+                padding: 30px 0 0 10px;
                 font-weight: 300;
 
             }
@@ -41,20 +41,39 @@
                 margin-top: 10px;
 
                 .topDiv {
+                    justify-content: space-between;
+                    color: white;
                     width: 450px;
                     height: 120px;
                     background: rgba(255, 177, 32, 0.976);
                     border-radius: 10px;
                     margin: 30px 0 0 30px;
 
+                    .left{
+                        // background: black;
+                        width: 200px;
+                        margin-left: 10px;
+                        p{
+                            font-size: 20px;
+                            padding-top: 20px;
+                        }
+                        h6{
+                            font-weight: 200;
+                        }
+                    }
+                    
+
                     .sideDiv {
-                        width: 30%;
+                        position: absolute;
+                        width: 130px;
                         height: inherit;
+                        margin-left: 180px;
+                        // border-radius: 15px;
                         background-image: url(/Images/comp.jpeg);
-                        margin-left: 290px;
                         background-repeat: no-repeat;
                         background-size: cover;
-                        border-radius: 15px;
+                        top: 40px;
+                        left: 250px;
                     }
                 }
             }
@@ -66,7 +85,7 @@
                 .headDiv {
                     width: 130px;
                     height: 45px;
-                    margin: 45px 0 0 200px;
+                    margin: 40px 0 0 200px;
                     display: flex;
                     justify-content: space-between;
 
