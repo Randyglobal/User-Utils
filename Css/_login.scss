@@ -1,31 +1,116 @@
-.name{
-    background: green;
-
     main{
-        input{
-            width: 190px;
-            padding: 10px;
-            border-radius: 20px;
-            outline: none;
-            border: none;
-            margin: 200px  0 0 600px;
-            &:focus{
-                border: 2px solid red;
+        width: 100%;
+        
+        form{
+            width: 400px;
+            height: 500px;
+            background: white;
+            margin: 60px auto;
+            border-radius: 8px;
+            box-shadow: 1px 1px 1px 4px rgba(255, 176, 30, 0.127);
+
+            .singleDiv{
+              width: 100%;
+              height: 60px;
+              background: rgb(91, 91, 255);
+              border-radius: 5px;
+
+              .headerLog{
+                width: 50px;
+                height: 50px;
+                border-radius: 30px;
+                // border: 1px solid white;
+                margin: 10px auto;
+                position: relative;
+                top: 5px;
+
+                i{
+                    font-size: 35px;
+                    margin: 5px auto auto 10px;
+                    color: white;
+                }
+              }
+            }
+            .inputDiv{
+                width: 350px;
+                height: 150px;
+                margin: 20px auto auto 30px;
+                // background: red;
+
+                .labelOne, a{
+                    font-weight: 600;
+                }
+
+                .inputOne{
+                    width: 300px;
+                    padding: 12px;
+                    outline: none;
+                    border: 1px solid gray;
+                    border-radius: 4px;
+                    font-size: 16px;
+
+                    &:focus{
+                        transition: 0.3s;
+                        border: 1px solid rgb(91, 91, 255);
+                    }
+
+                }
+                p, a{
+                    text-decoration: none;
+                    color: rgb(91, 91, 255);
+                }
+            }
+
+            .firstBtn {
+                width: 320px;
+                text-decoration: none;
+                padding: 10px;
+                margin: 30px auto auto 32px;
+                border-radius: 5px;
+                outline: none;
+                border: none;
+                background: rgb(91, 91, 255);
+                cursor: pointer;
+                
+                a{
+                    text-decoration: none;
+                    color: white;
+                }
+ 
+            }
+            .paragraph {
+                margin-top: 20px;
+                margin-left: 100px;
+                a{
+                    text-decoration: none;
+                    font-weight: 600;
+                    color: rgb(91, 91, 255);
+                }
+            }
+            span{
+                margin-left: 180px;
+            }
+            .facebookOr {
+                text-decoration: none;
+                margin-top: 20px;
+                margin-left: 30px;
+                .button {
+                    width: 160px;
+                    outline: none;
+                    border: none;
+                    border-radius: 6px;
+                    padding: 11px;
+                    font-size: 500;
+                    cursor: pointer;
+                }
+                #button{
+                    background: rgb(91, 91, 255);
+                    color: white;
+                }
+                #btn {
+                    background: red;
+                    color: white;
+                }
             }
         }
-
-        button{
-            width: 100px;
-            padding: 10px;
-            margin-left: 660px;
-            margin-top: 40px;
-            border-radius: 10px;
-            cursor: pointer;
-            font-size: 15px;
-        }
-        a{
-            text-decoration: none;
-
-        }
-    }
 }

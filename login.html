@@ -5,20 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Arimo:wght@500&family=Cantarell:wght@400;700&family=Catamaran:wght@300&family=Titan+One&display=swap"
+        rel="stylesheet">
     <title>Document</title>
 </head>
-<body class="name">
-    <main>
-        <!-- <h3 for="name">Enter your name</h3>
-        <input type="text" name="label" id="userName">
-        <! <button >Submit</a></button> -->
-        <!-- <button id="submit"><a href="index.html">Login</a></button>
-        <input type="text"> --> 
-    <h3>Enter your name</h3>
-    <div class="input">
-    <input type="text" name="label" id="userName">
-    </div>
-    <button id="submit"><a href="index.html">Login</a></button>
+<body class="body">
+    <main class="logContainer">
+        <form action="" method="post">
+            <div class="singleDiv">
+            <div class="headerLog">
+                <i class="fa-regular fa-user"></i>
+            </div>
+           
+            </div>
+            <div class="inputDiv">
+                <label class="labelOne" for="">Username</label><br>
+                <input class="inputOne" type="text" name="label" id="userName"><br>
+                <label class="labelOne" for="">Password</label><br>
+                <input class="inputOne" type="password" >
+                <p><a href="">Forgot password?</a></p>
+            </div>
+            <button class="firstBtn" id="submit"><a href="index.html">LOGIN</a></button>
+            <p class="paragraph">New to our platform? <a href="">SignUp</a></p>
+            <span>Or</span>
+            <div class="facebookOr">
+                <button class="button" id="button"> Facebook </button>
+                <button class="button" id="btn"> Google </button>
+            </div>
+
+        </form>
     </main>
     <script src="js/login.js"></script>
 </body>
