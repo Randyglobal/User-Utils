@@ -33,12 +33,16 @@
             }
             .inputDiv{
                 width: 350px;
-                height: 150px;
-                margin: 20px auto auto 30px;
+                height: 180px;
+                margin: 20px auto auto 35px;
                 // background: red;
 
+                .secondInput{
+                    margin-top: 15px;
+                }
+
                 .labelOne, a{
-                    font-weight: 600;
+                    font-weight: 500;
                 }
 
                 .inputOne{
@@ -55,9 +59,13 @@
                     }
 
                 }
-                p, a{
+                p a{
                     text-decoration: none;
-                    color: rgb(91, 91, 255);
+                    color: black;
+                    font-weight: 600;
+                    &:hover{
+                        color: rgb(91, 91, 255);
+                    }
                 }
             }
 
@@ -65,14 +73,19 @@
                 width: 320px;
                 text-decoration: none;
                 padding: 10px;
-                margin: 30px auto auto 32px;
+                margin: 30px auto auto 35px;
                 border-radius: 5px;
                 outline: none;
                 border: none;
                 background: rgb(91, 91, 255);
                 cursor: pointer;
+                &:hover{
+                    background: rgb(3, 101, 172);
+                }
                 
                 a{
+                    width: 100%;
+                    padding: 10px;
                     text-decoration: none;
                     color: white;
                 }
@@ -95,6 +108,7 @@
                 margin-top: 20px;
                 margin-left: 30px;
                 .button {
+                    text-decoration: none;
                     width: 160px;
                     outline: none;
                     border: none;
@@ -102,15 +116,33 @@
                     padding: 11px;
                     font-size: 500;
                     cursor: pointer;
+                    
                 }
-                #button{
-                    background: rgb(91, 91, 255);
-                    color: white;
+
+                a{
+                    width: 160px;
+                    text-decoration: none;
+                    color: wheat;
                 }
                 #btn {
+                    background: rgb(91, 91, 255);
+                    color: white;
+                    &:hover{
+                        background: rgb(3, 101, 172);
+                    }
+                }
+                #buton {
                     background: red;
                     color: white;
+
+                    &:hover{
+                        background: rgb(3, 101, 172);
+                    }
                 }
+
+                 
             }
+           
         }
+         
 }

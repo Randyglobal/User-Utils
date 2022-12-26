@@ -942,12 +942,16 @@ main form .singleDiv .headerLog i {
 
 main form .inputDiv {
   width: 350px;
-  height: 150px;
-  margin: 20px auto auto 30px;
+  height: 180px;
+  margin: 20px auto auto 35px;
+}
+
+main form .inputDiv .secondInput {
+  margin-top: 15px;
 }
 
 main form .inputDiv .labelOne, main form .inputDiv a {
-  font-weight: 600;
+  font-weight: 500;
 }
 
 main form .inputDiv .inputOne {
@@ -965,8 +969,13 @@ main form .inputDiv .inputOne:focus {
   border: 1px solid #5b5bff;
 }
 
-main form .inputDiv p, main form .inputDiv a {
+main form .inputDiv p a {
   text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+
+main form .inputDiv p a:hover {
   color: #5b5bff;
 }
 
@@ -974,7 +983,7 @@ main form .firstBtn {
   width: 320px;
   text-decoration: none;
   padding: 10px;
-  margin: 30px auto auto 32px;
+  margin: 30px auto auto 35px;
   border-radius: 5px;
   outline: none;
   border: none;
@@ -982,7 +991,13 @@ main form .firstBtn {
   cursor: pointer;
 }
 
+main form .firstBtn:hover {
+  background: #0365ac;
+}
+
 main form .firstBtn a {
+  width: 100%;
+  padding: 10px;
   text-decoration: none;
   color: white;
 }
@@ -1009,6 +1024,7 @@ main form .facebookOr {
 }
 
 main form .facebookOr .button {
+  text-decoration: none;
   width: 160px;
   outline: none;
   border: none;
@@ -1018,13 +1034,27 @@ main form .facebookOr .button {
   cursor: pointer;
 }
 
-main form .facebookOr #button {
+main form .facebookOr a {
+  width: 160px;
+  text-decoration: none;
+  color: wheat;
+}
+
+main form .facebookOr #btn {
   background: #5b5bff;
   color: white;
 }
 
-main form .facebookOr #btn {
+main form .facebookOr #btn:hover {
+  background: #0365ac;
+}
+
+main form .facebookOr #buton {
   background: red;
   color: white;
+}
+
+main form .facebookOr #buton:hover {
+  background: #0365ac;
 }
 /*# sourceMappingURL=style.css.map */
