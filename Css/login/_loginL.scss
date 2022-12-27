@@ -1,0 +1,152 @@
+.boddy{
+    background: rgb(255, 221, 161);
+    font-family: 'Catamaran', sans-serif;
+main{
+    width: 100%;
+    
+    form{
+        width: 400px;
+        height: 500px;
+        background: white;
+        margin: 60px auto;
+        border-radius: 8px;
+        box-shadow: 1px 1px 1px 4px rgba(255, 176, 30, 0.127);
+
+        .singleDiv{
+          width: 100%;
+          height: 60px;
+          background: rgb(91, 91, 255);
+          border-radius: 5px;
+
+          .headerLog{
+            width: 50px;
+            height: 50px;
+            border-radius: 30px;
+            // border: 1px solid white;
+            margin: 10px auto;
+            position: relative;
+            top: 5px;
+
+            i{
+                font-size: 35px;
+                margin: 5px auto auto 10px;
+                color: white;
+            }
+          }
+        }
+        .inputDiv{
+            width: 350px;
+            height: 180px;
+            margin: 20px auto auto 35px;
+            // background: red;
+
+            .secondInput{
+                margin-top: 15px;
+            }
+
+            .labelOne, a{
+                font-weight: 500;
+            }
+
+            .inputOne{
+                width: 300px;
+                padding: 12px;
+                outline: none;
+                border: 1px solid gray;
+                border-radius: 4px;
+                font-size: 16px;
+
+                &:focus{
+                    transition: 0.3s;
+                    border: 1px solid rgb(91, 91, 255);
+                }
+
+            }
+            p a{
+                text-decoration: none;
+                color: black;
+                font-weight: 600;
+                &:hover{
+                    color: rgb(91, 91, 255);
+                }
+            }
+        }
+
+        .firstBtn {
+            width: 320px;
+            text-decoration: none;
+            padding: 10px;
+            margin: 30px auto auto 35px;
+            border-radius: 5px;
+            outline: none;
+            border: none;
+            background: rgb(91, 91, 255);
+            cursor: pointer;
+            &:hover{
+                background: rgb(3, 101, 172);
+            }
+            
+            a{
+                width: 100%;
+                padding: 10px;
+                text-decoration: none;
+                color: white;
+            }
+
+        }
+        .paragraph {
+            margin-top: 20px;
+            margin-left: 100px;
+            a{
+                text-decoration: none;
+                font-weight: 600;
+                color: rgb(91, 91, 255);
+            }
+        }
+        span{
+            margin-left: 180px;
+        }
+        .facebookOr {
+            text-decoration: none;
+            margin-top: 20px;
+            margin-left: 30px;
+            .button {
+                text-decoration: none;
+                width: 160px;
+                outline: none;
+                border: none;
+                border-radius: 6px;
+                padding: 11px;
+                font-size: 500;
+                cursor: pointer;
+                
+            }
+
+            a{
+                width: 160px;
+                text-decoration: none;
+                color: wheat;
+            }
+            #btn {
+                background: rgb(91, 91, 255);
+                color: white;
+                &:hover{
+                    background: rgb(3, 101, 172);
+                }
+            }
+            #buton {
+                background: red;
+                color: white;
+
+                &:hover{
+                    background: rgb(3, 101, 172);
+                }
+            }
+
+             
+        }
+       
+    }
+     
+}
+}

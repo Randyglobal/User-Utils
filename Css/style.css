@@ -162,565 +162,6 @@ main .secondDiv .arithmeticScientific .arithScien .DEL:hover, main .secondDiv .a
   background: #0a8fbb;
 }
 
-@media (min-width: 1200px) {
-  main {
-    width: 100%;
-    height: 70vh;
-    position: relative;
-  }
-  main .secondDiv {
-    width: 410px;
-    height: 600px;
-    margin: auto;
-    margin-top: 20px;
-    border-radius: 40px;
-    background: rgba(0, 0, 108, 0.87);
-    position: relative;
-    -webkit-box-shadow: 1px 1px 2px 3px lightblue;
-            box-shadow: 1px 1px 2px 3px lightblue;
-  }
-  main .secondDiv .mainScreen {
-    width: 75%;
-    height: 100px;
-    background: #019801;
-    position: absolute;
-    top: 30px;
-    left: 50px;
-    border-radius: 7px;
-  }
-  main .secondDiv .mainScreen .operationSense {
-    margin-top: 5px;
-  }
-  main .secondDiv .mainScreen input {
-    width: 95%;
-    height: 45px;
-    margin-left: 8px;
-    border: none;
-    outline: none;
-    background: #019801;
-  }
-  main .secondDiv .mainScreen ::-webkit-input-placeholder {
-    color: black;
-    font-size: 16px;
-  }
-  main .secondDiv .mainScreen :-ms-input-placeholder {
-    color: black;
-    font-size: 16px;
-  }
-  main .secondDiv .mainScreen ::-ms-input-placeholder {
-    color: black;
-    font-size: 16px;
-  }
-  main .secondDiv .mainScreen ::placeholder {
-    color: black;
-    font-size: 16px;
-  }
-  main .secondDiv .powerButton {
-    width: 75%;
-    height: 70px;
-    background: transparent;
-    position: absolute;
-    top: 150px;
-    left: 50px;
-    border-radius: 7px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-  }
-  main .secondDiv .powerButton button {
-    width: 40px;
-    height: 25px;
-    margin-top: 10px;
-    border-radius: 5px;
-    border: none;
-    outline: none;
-    color: white;
-    font-size: 12px;
-    cursor: pointer;
-    -webkit-transition: 0.8s;
-    transition: 0.8s;
-    background: #0a8fbb;
-  }
-  main .secondDiv .powerButton button:hover {
-    background: white;
-    color: #0a8fbb;
-  }
-  main .secondDiv .powerButton .replayBtn {
-    width: 50px;
-    height: 50px;
-    border-radius: 10px;
-  }
-  main .secondDiv .arithmeticScientific {
-    width: 80%;
-    height: 340px;
-    background: transparent;
-    position: absolute;
-    top: 230px;
-    left: 43px;
-    border-radius: 7px;
-  }
-  main .secondDiv .arithmeticScientific .arithScien {
-    width: 100%;
-    height: 40px;
-    margin-top: 10px;
-  }
-  main .secondDiv .arithmeticScientific .arithScien button {
-    width: 50px;
-    height: 25px;
-    margin-top: 5px;
-    border-radius: 5px;
-    border: none;
-    outline: none;
-    color: white;
-    font-size: 12px;
-    cursor: pointer;
-    -webkit-transition: 0.8s;
-    transition: 0.8s;
-    margin-left: 14px;
-    background: #0a8fbb;
-  }
-  main .secondDiv .arithmeticScientific .arithScien button:hover {
-    background: white;
-    color: #0a8fbb;
-  }
-  main .secondDiv .arithmeticScientific .arithScien .firstBtn {
-    margin-left: 0px;
-  }
-  main .secondDiv .arithmeticScientific .arithScien #firstBtn, main .secondDiv .arithmeticScientific .arithScien #firsBtn, main .secondDiv .arithmeticScientific .arithScien #firBtn, main .secondDiv .arithmeticScientific .arithScien #fitBtn {
-    margin-left: 0px;
-  }
-  main .secondDiv .arithmeticScientific .arithScien .DEL, main .secondDiv .arithmeticScientific .arithScien .AC, main .secondDiv .arithmeticScientific .arithScien .Ans, main .secondDiv .arithmeticScientific .arithScien .equal {
-    background: yellow;
-    color: black;
-  }
-  main .secondDiv .arithmeticScientific .arithScien .DEL:hover, main .secondDiv .arithmeticScientific .arithScien .AC:hover, main .secondDiv .arithmeticScientific .arithScien .Ans:hover, main .secondDiv .arithmeticScientific .arithScien .equal:hover {
-    color: white;
-    background: #0a8fbb;
-  }
-}
-
-@media (max-width: 992px) {
-  main {
-    width: 100%;
-    height: 70vh;
-    position: relative;
-  }
-  main .secondDiv {
-    width: 410px;
-    height: 600px;
-    margin: auto;
-    margin-top: 20px;
-    border-radius: 40px;
-    background: rgba(0, 0, 108, 0.87);
-    position: relative;
-    -webkit-box-shadow: 1px 1px 2px 3px lightblue;
-            box-shadow: 1px 1px 2px 3px lightblue;
-  }
-  main .secondDiv .mainScreen {
-    width: 75%;
-    height: 100px;
-    background: #019801;
-    position: absolute;
-    top: 30px;
-    left: 50px;
-    border-radius: 7px;
-  }
-  main .secondDiv .mainScreen .operationSense {
-    margin-top: 5px;
-  }
-  main .secondDiv .mainScreen input {
-    width: 95%;
-    height: 45px;
-    margin-left: 8px;
-    border: none;
-    outline: none;
-    background: #019801;
-  }
-  main .secondDiv .mainScreen ::-webkit-input-placeholder {
-    color: black;
-    font-size: 16px;
-  }
-  main .secondDiv .mainScreen :-ms-input-placeholder {
-    color: black;
-    font-size: 16px;
-  }
-  main .secondDiv .mainScreen ::-ms-input-placeholder {
-    color: black;
-    font-size: 16px;
-  }
-  main .secondDiv .mainScreen ::placeholder {
-    color: black;
-    font-size: 16px;
-  }
-  main .secondDiv .powerButton {
-    width: 75%;
-    height: 70px;
-    background: transparent;
-    position: absolute;
-    top: 150px;
-    left: 50px;
-    border-radius: 7px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-  }
-  main .secondDiv .powerButton button {
-    width: 40px;
-    height: 25px;
-    margin-top: 10px;
-    border-radius: 5px;
-    border: none;
-    outline: none;
-    color: white;
-    font-size: 12px;
-    cursor: pointer;
-    -webkit-transition: 0.8s;
-    transition: 0.8s;
-    background: #0a8fbb;
-  }
-  main .secondDiv .powerButton button:hover {
-    background: white;
-    color: #0a8fbb;
-  }
-  main .secondDiv .powerButton .replayBtn {
-    width: 50px;
-    height: 50px;
-    border-radius: 10px;
-  }
-  main .secondDiv .arithmeticScientific {
-    width: 80%;
-    height: 340px;
-    background: transparent;
-    position: absolute;
-    top: 230px;
-    left: 45px;
-    border-radius: 7px;
-  }
-  main .secondDiv .arithmeticScientific .arithScien {
-    width: 100%;
-    height: 40px;
-    margin-top: 10px;
-  }
-  main .secondDiv .arithmeticScientific .arithScien button {
-    width: 50px;
-    height: 25px;
-    margin-top: 5px;
-    border-radius: 5px;
-    border: none;
-    outline: none;
-    color: white;
-    font-size: 12px;
-    cursor: pointer;
-    -webkit-transition: 0.8s;
-    transition: 0.8s;
-    margin-left: 14px;
-    background: #0a8fbb;
-  }
-  main .secondDiv .arithmeticScientific .arithScien button:hover {
-    background: white;
-    color: #0a8fbb;
-  }
-  main .secondDiv .arithmeticScientific .arithScien .firstBtn {
-    margin-left: 0px;
-  }
-  main .secondDiv .arithmeticScientific .arithScien #firstBtn, main .secondDiv .arithmeticScientific .arithScien #firsBtn, main .secondDiv .arithmeticScientific .arithScien #firBtn, main .secondDiv .arithmeticScientific .arithScien #fitBtn {
-    margin-left: 0px;
-  }
-  main .secondDiv .arithmeticScientific .arithScien .DEL, main .secondDiv .arithmeticScientific .arithScien .AC, main .secondDiv .arithmeticScientific .arithScien .Ans, main .secondDiv .arithmeticScientific .arithScien .equal {
-    background: yellow;
-    color: black;
-  }
-  main .secondDiv .arithmeticScientific .arithScien .DEL:hover, main .secondDiv .arithmeticScientific .arithScien .AC:hover, main .secondDiv .arithmeticScientific .arithScien .Ans:hover, main .secondDiv .arithmeticScientific .arithScien .equal:hover {
-    color: white;
-    background: #0a8fbb;
-  }
-}
-
-@media (max-width: 760px) {
-  main {
-    width: 100%;
-    height: 70vh;
-    position: relative;
-  }
-  main .secondDiv {
-    width: 420px;
-    height: 600px;
-    margin: auto;
-    margin-top: 20px;
-    border-radius: 40px;
-    background: rgba(0, 0, 108, 0.87);
-    position: relative;
-    -webkit-box-shadow: 1px 1px 2px 3px lightblue;
-            box-shadow: 1px 1px 2px 3px lightblue;
-  }
-  main .secondDiv .mainScreen {
-    width: 75%;
-    height: 100px;
-    background: #019801;
-    position: absolute;
-    top: 30px;
-    left: 50px;
-    border-radius: 7px;
-  }
-  main .secondDiv .mainScreen .operationSense {
-    margin-top: 5px;
-  }
-  main .secondDiv .mainScreen input {
-    width: 95%;
-    height: 45px;
-    margin-left: 8px;
-    border: none;
-    outline: none;
-    background: #019801;
-  }
-  main .secondDiv .mainScreen ::-webkit-input-placeholder {
-    color: black;
-    font-size: 16px;
-  }
-  main .secondDiv .mainScreen :-ms-input-placeholder {
-    color: black;
-    font-size: 16px;
-  }
-  main .secondDiv .mainScreen ::-ms-input-placeholder {
-    color: black;
-    font-size: 16px;
-  }
-  main .secondDiv .mainScreen ::placeholder {
-    color: black;
-    font-size: 16px;
-  }
-  main .secondDiv .powerButton {
-    width: 75%;
-    height: 70px;
-    background: transparent;
-    position: absolute;
-    top: 150px;
-    left: 50px;
-    border-radius: 7px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-  }
-  main .secondDiv .powerButton button {
-    width: 40px;
-    height: 25px;
-    margin-top: 10px;
-    border-radius: 5px;
-    border: none;
-    outline: none;
-    color: white;
-    font-size: 12px;
-    cursor: pointer;
-    -webkit-transition: 0.8s;
-    transition: 0.8s;
-    background: #0a8fbb;
-  }
-  main .secondDiv .powerButton button:hover {
-    background: white;
-    color: #0a8fbb;
-  }
-  main .secondDiv .powerButton .replayBtn {
-    width: 50px;
-    height: 50px;
-    border-radius: 10px;
-  }
-  main .secondDiv .arithmeticScientific {
-    width: 80%;
-    height: 340px;
-    background: transparent;
-    position: absolute;
-    top: 230px;
-    left: 45px;
-    border-radius: 7px;
-  }
-  main .secondDiv .arithmeticScientific .arithScien {
-    width: 100%;
-    height: 40px;
-    margin-top: 10px;
-  }
-  main .secondDiv .arithmeticScientific .arithScien button {
-    width: 50px;
-    height: 25px;
-    margin-top: 5px;
-    border-radius: 5px;
-    border: none;
-    outline: none;
-    color: white;
-    font-size: 12px;
-    cursor: pointer;
-    -webkit-transition: 0.8s;
-    transition: 0.8s;
-    margin-left: 14px;
-    background: #0a8fbb;
-  }
-  main .secondDiv .arithmeticScientific .arithScien button:hover {
-    background: white;
-    color: #0a8fbb;
-  }
-  main .secondDiv .arithmeticScientific .arithScien .firstBtn {
-    margin-left: 0px;
-  }
-  main .secondDiv .arithmeticScientific .arithScien #firstBtn, main .secondDiv .arithmeticScientific .arithScien #firsBtn, main .secondDiv .arithmeticScientific .arithScien #firBtn, main .secondDiv .arithmeticScientific .arithScien #fitBtn {
-    margin-left: 0px;
-  }
-  main .secondDiv .arithmeticScientific .arithScien .DEL, main .secondDiv .arithmeticScientific .arithScien .AC, main .secondDiv .arithmeticScientific .arithScien .Ans, main .secondDiv .arithmeticScientific .arithScien .equal {
-    background: yellow;
-    color: black;
-  }
-  main .secondDiv .arithmeticScientific .arithScien .DEL:hover, main .secondDiv .arithmeticScientific .arithScien .AC:hover, main .secondDiv .arithmeticScientific .arithScien .Ans:hover, main .secondDiv .arithmeticScientific .arithScien .equal:hover {
-    color: white;
-    background: #0a8fbb;
-  }
-}
-
-@media (max-width: 350px) {
-  main {
-    width: 100%;
-    height: 70vh;
-    position: relative;
-  }
-  main .secondDiv {
-    width: 100%;
-    height: 600px;
-    margin: auto;
-    margin-top: 20px;
-    border-radius: 40px;
-    background: rgba(0, 0, 108, 0.87);
-    position: relative;
-    -webkit-box-shadow: 1px 1px 2px 3px lightblue;
-            box-shadow: 1px 1px 2px 3px lightblue;
-  }
-  main .secondDiv .mainScreen {
-    width: 90%;
-    height: 100px;
-    background: #019801;
-    position: absolute;
-    top: 30px;
-    left: 15px;
-    border-radius: 7px;
-  }
-  main .secondDiv .mainScreen .operationSense {
-    margin-top: 5px;
-  }
-  main .secondDiv .mainScreen input {
-    width: 95%;
-    height: 45px;
-    margin-left: 8px;
-    border: none;
-    outline: none;
-    background: #019801;
-  }
-  main .secondDiv .mainScreen ::-webkit-input-placeholder {
-    color: black;
-    font-size: 16px;
-  }
-  main .secondDiv .mainScreen :-ms-input-placeholder {
-    color: black;
-    font-size: 16px;
-  }
-  main .secondDiv .mainScreen ::-ms-input-placeholder {
-    color: black;
-    font-size: 16px;
-  }
-  main .secondDiv .mainScreen ::placeholder {
-    color: black;
-    font-size: 16px;
-  }
-  main .secondDiv .powerButton {
-    width: 75%;
-    height: 70px;
-    background: transparent;
-    position: absolute;
-    top: 150px;
-    left: 30px;
-    border-radius: 7px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-  }
-  main .secondDiv .powerButton button {
-    width: 40px;
-    height: 25px;
-    margin-top: 10px;
-    border-radius: 5px;
-    border: none;
-    outline: none;
-    color: white;
-    font-size: 12px;
-    cursor: pointer;
-    -webkit-transition: 0.8s;
-    transition: 0.8s;
-    background: #0a8fbb;
-  }
-  main .secondDiv .powerButton button:hover {
-    background: white;
-    color: #0a8fbb;
-  }
-  main .secondDiv .powerButton .replayBtn {
-    width: 50px;
-    height: 50px;
-    border-radius: 10px;
-  }
-  main .secondDiv .arithmeticScientific {
-    width: 80%;
-    height: 340px;
-    background: transparent;
-    position: absolute;
-    top: 230px;
-    left: 25px;
-    border-radius: 7px;
-  }
-  main .secondDiv .arithmeticScientific .arithScien {
-    width: 100%;
-    height: 40px;
-    margin-top: 10px;
-  }
-  main .secondDiv .arithmeticScientific .arithScien button {
-    width: 30px;
-    height: 25px;
-    margin-top: 5px;
-    border-radius: 5px;
-    border: none;
-    outline: none;
-    color: white;
-    font-size: 12px;
-    cursor: pointer;
-    -webkit-transition: 0.8s;
-    transition: 0.8s;
-    background: #0a8fbb;
-  }
-  main .secondDiv .arithmeticScientific .arithScien button:hover {
-    background: white;
-    color: #0a8fbb;
-  }
-  main .secondDiv .arithmeticScientific .arithScien .firstBtn {
-    margin-left: 0px;
-  }
-  main .secondDiv .arithmeticScientific .arithScien #firstBtn, main .secondDiv .arithmeticScientific .arithScien #firsBtn, main .secondDiv .arithmeticScientific .arithScien #firBtn, main .secondDiv .arithmeticScientific .arithScien #fitBtn {
-    margin-left: 0px;
-  }
-  main .secondDiv .arithmeticScientific .arithScien .DEL, main .secondDiv .arithmeticScientific .arithScien .AC, main .secondDiv .arithmeticScientific .arithScien .Ans, main .secondDiv .arithmeticScientific .arithScien .equal {
-    background: yellow;
-    color: black;
-  }
-  main .secondDiv .arithmeticScientific .arithScien .DEL:hover, main .secondDiv .arithmeticScientific .arithScien .AC:hover, main .secondDiv .arithmeticScientific .arithScien .Ans:hover, main .secondDiv .arithmeticScientific .arithScien .equal:hover {
-    color: white;
-    background: #0a8fbb;
-  }
-}
-
 .body {
   background: #ffdda1;
   font-family: 'Catamaran', sans-serif;
@@ -904,11 +345,16 @@ main .secondDiv .arithmeticScientific .arithScien .DEL:hover, main .secondDiv .a
   left: 30px;
 }
 
-main {
+.boddy {
+  background: #ffdda1;
+  font-family: 'Catamaran', sans-serif;
+}
+
+.boddy main {
   width: 100%;
 }
 
-main form {
+.boddy main form {
   width: 400px;
   height: 500px;
   background: white;
@@ -918,14 +364,14 @@ main form {
           box-shadow: 1px 1px 1px 4px rgba(255, 176, 30, 0.127);
 }
 
-main form .singleDiv {
+.boddy main form .singleDiv {
   width: 100%;
   height: 60px;
   background: #5b5bff;
   border-radius: 5px;
 }
 
-main form .singleDiv .headerLog {
+.boddy main form .singleDiv .headerLog {
   width: 50px;
   height: 50px;
   border-radius: 30px;
@@ -934,27 +380,27 @@ main form .singleDiv .headerLog {
   top: 5px;
 }
 
-main form .singleDiv .headerLog i {
+.boddy main form .singleDiv .headerLog i {
   font-size: 35px;
   margin: 5px auto auto 10px;
   color: white;
 }
 
-main form .inputDiv {
+.boddy main form .inputDiv {
   width: 350px;
   height: 180px;
   margin: 20px auto auto 35px;
 }
 
-main form .inputDiv .secondInput {
+.boddy main form .inputDiv .secondInput {
   margin-top: 15px;
 }
 
-main form .inputDiv .labelOne, main form .inputDiv a {
+.boddy main form .inputDiv .labelOne, .boddy main form .inputDiv a {
   font-weight: 500;
 }
 
-main form .inputDiv .inputOne {
+.boddy main form .inputDiv .inputOne {
   width: 300px;
   padding: 12px;
   outline: none;
@@ -963,23 +409,23 @@ main form .inputDiv .inputOne {
   font-size: 16px;
 }
 
-main form .inputDiv .inputOne:focus {
+.boddy main form .inputDiv .inputOne:focus {
   -webkit-transition: 0.3s;
   transition: 0.3s;
   border: 1px solid #5b5bff;
 }
 
-main form .inputDiv p a {
+.boddy main form .inputDiv p a {
   text-decoration: none;
   color: black;
   font-weight: 600;
 }
 
-main form .inputDiv p a:hover {
+.boddy main form .inputDiv p a:hover {
   color: #5b5bff;
 }
 
-main form .firstBtn {
+.boddy main form .firstBtn {
   width: 320px;
   text-decoration: none;
   padding: 10px;
@@ -991,39 +437,39 @@ main form .firstBtn {
   cursor: pointer;
 }
 
-main form .firstBtn:hover {
+.boddy main form .firstBtn:hover {
   background: #0365ac;
 }
 
-main form .firstBtn a {
+.boddy main form .firstBtn a {
   width: 100%;
   padding: 10px;
   text-decoration: none;
   color: white;
 }
 
-main form .paragraph {
+.boddy main form .paragraph {
   margin-top: 20px;
   margin-left: 100px;
 }
 
-main form .paragraph a {
+.boddy main form .paragraph a {
   text-decoration: none;
   font-weight: 600;
   color: #5b5bff;
 }
 
-main form span {
+.boddy main form span {
   margin-left: 180px;
 }
 
-main form .facebookOr {
+.boddy main form .facebookOr {
   text-decoration: none;
   margin-top: 20px;
   margin-left: 30px;
 }
 
-main form .facebookOr .button {
+.boddy main form .facebookOr .button {
   text-decoration: none;
   width: 160px;
   outline: none;
@@ -1034,27 +480,1255 @@ main form .facebookOr .button {
   cursor: pointer;
 }
 
-main form .facebookOr a {
+.boddy main form .facebookOr a {
   width: 160px;
   text-decoration: none;
   color: wheat;
 }
 
-main form .facebookOr #btn {
+.boddy main form .facebookOr #btn {
   background: #5b5bff;
   color: white;
 }
 
-main form .facebookOr #btn:hover {
+.boddy main form .facebookOr #btn:hover {
   background: #0365ac;
 }
 
-main form .facebookOr #buton {
+.boddy main form .facebookOr #buton {
   background: red;
   color: white;
 }
 
-main form .facebookOr #buton:hover {
+.boddy main form .facebookOr #buton:hover {
   background: #0365ac;
+}
+
+.mainContext {
+  width: 100%;
+}
+
+.mainContext .signUp form {
+  width: 420px;
+  height: 530px;
+  margin: 40px auto;
+  border-radius: 8px;
+  background: white;
+  -webkit-box-shadow: 1px 1px 1px 4px rgba(255, 176, 30, 0.127);
+          box-shadow: 1px 1px 1px 4px rgba(255, 176, 30, 0.127);
+}
+
+.mainContext .signUp form .formLogo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 120px;
+  height: 50px;
+  margin: 10px auto;
+  background: transparent;
+}
+
+.mainContext .signUp form .formLogo h3 {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.mainContext .signUp form .formHead {
+  width: 380px;
+  height: 40px;
+  background: #5b5bff;
+  text-align: center;
+  margin: 10px auto;
+  color: white;
+  border-radius: 7px;
+}
+
+.mainContext .signUp form .formHead p {
+  font-weight: 500px;
+  font-size: 25px;
+}
+
+.mainContext .signUp form .inputDivs {
+  width: 100%;
+  height: 300px;
+}
+
+.mainContext .signUp form .inputDivs .inputOne {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 380px;
+  height: 40px;
+  margin-left: 20px;
+}
+
+.mainContext .signUp form .inputDivs .inputOne .input {
+  width: 170px;
+  height: 29px;
+  border: 1px solid gray;
+  outline: none;
+  border-radius: 6px;
+  padding-left: 10px;
+}
+
+.mainContext .signUp form .inputDivs .inputOne .input:focus {
+  border: 1px solid #5b5bff;
+}
+
+.mainContext .signUp form .username {
+  margin-top: 20px;
+  width: 100%;
+  height: 40px;
+}
+
+.mainContext .signUp form .username .userInput {
+  width: 368px;
+  height: 29px;
+  border-radius: 6px;
+  border: 1px solid gray;
+  outline: none;
+  padding-left: 10px;
+}
+
+.mainContext .signUp form .username .userInput:hover {
+  border: 1px solid #5b5bff;
+}
+
+.mainContext .signUp form .username .inputLabel {
+  margin-left: 20px;
+}
+
+.mainContext .signUp form .showPassword {
+  margin-left: 20px;
+}
+
+.mainContext .signUp form .showPassword input {
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+}
+
+.mainContext .signUp form .showPassword label {
+  margin-top: -20px;
+}
+
+.mainContext .signUp form .onlyButton {
+  margin-top: 60px;
+  margin-left: 140px;
+  padding: 10px;
+  width: 130px;
+  height: 40px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  background: #5b5bff;
+  cursor: pointer;
+}
+
+.mainContext .signUp form .onlyButton:hover {
+  background: #009dff;
+}
+
+.mainContext .signUp form a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+}
+
+@media (min-width: 1200px) {
+  main {
+    width: 100%;
+    height: 70vh;
+    position: relative;
+  }
+  main .secondDiv {
+    width: 410px;
+    height: 600px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 40px;
+    background: rgba(0, 0, 108, 0.87);
+    position: relative;
+    -webkit-box-shadow: 1px 1px 2px 3px lightblue;
+            box-shadow: 1px 1px 2px 3px lightblue;
+  }
+  main .secondDiv .mainScreen {
+    width: 75%;
+    height: 100px;
+    background: #019801;
+    position: absolute;
+    top: 30px;
+    left: 50px;
+    border-radius: 7px;
+  }
+  main .secondDiv .mainScreen .operationSense {
+    margin-top: 5px;
+  }
+  main .secondDiv .mainScreen input {
+    width: 95%;
+    height: 45px;
+    margin-left: 8px;
+    border: none;
+    outline: none;
+    background: #019801;
+  }
+  main .secondDiv .mainScreen ::-webkit-input-placeholder {
+    color: black;
+    font-size: 16px;
+  }
+  main .secondDiv .mainScreen :-ms-input-placeholder {
+    color: black;
+    font-size: 16px;
+  }
+  main .secondDiv .mainScreen ::-ms-input-placeholder {
+    color: black;
+    font-size: 16px;
+  }
+  main .secondDiv .mainScreen ::placeholder {
+    color: black;
+    font-size: 16px;
+  }
+  main .secondDiv .powerButton {
+    width: 75%;
+    height: 70px;
+    background: transparent;
+    position: absolute;
+    top: 150px;
+    left: 50px;
+    border-radius: 7px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  main .secondDiv .powerButton button {
+    width: 40px;
+    height: 25px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 12px;
+    cursor: pointer;
+    -webkit-transition: 0.8s;
+    transition: 0.8s;
+    background: #0a8fbb;
+  }
+  main .secondDiv .powerButton button:hover {
+    background: white;
+    color: #0a8fbb;
+  }
+  main .secondDiv .powerButton .replayBtn {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+  }
+  main .secondDiv .arithmeticScientific {
+    width: 80%;
+    height: 340px;
+    background: transparent;
+    position: absolute;
+    top: 230px;
+    left: 43px;
+    border-radius: 7px;
+  }
+  main .secondDiv .arithmeticScientific .arithScien {
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+  }
+  main .secondDiv .arithmeticScientific .arithScien button {
+    width: 50px;
+    height: 25px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 12px;
+    cursor: pointer;
+    -webkit-transition: 0.8s;
+    transition: 0.8s;
+    margin-left: 14px;
+    background: #0a8fbb;
+  }
+  main .secondDiv .arithmeticScientific .arithScien button:hover {
+    background: white;
+    color: #0a8fbb;
+  }
+  main .secondDiv .arithmeticScientific .arithScien .firstBtn {
+    margin-left: 0px;
+  }
+  main .secondDiv .arithmeticScientific .arithScien #firstBtn, main .secondDiv .arithmeticScientific .arithScien #firsBtn, main .secondDiv .arithmeticScientific .arithScien #firBtn, main .secondDiv .arithmeticScientific .arithScien #fitBtn {
+    margin-left: 0px;
+  }
+  main .secondDiv .arithmeticScientific .arithScien .DEL, main .secondDiv .arithmeticScientific .arithScien .AC, main .secondDiv .arithmeticScientific .arithScien .Ans, main .secondDiv .arithmeticScientific .arithScien .equal {
+    background: yellow;
+    color: black;
+  }
+  main .secondDiv .arithmeticScientific .arithScien .DEL:hover, main .secondDiv .arithmeticScientific .arithScien .AC:hover, main .secondDiv .arithmeticScientific .arithScien .Ans:hover, main .secondDiv .arithmeticScientific .arithScien .equal:hover {
+    color: white;
+    background: #0a8fbb;
+  }
+  .boddy {
+    background: #ffdda1;
+    font-family: 'Catamaran', sans-serif;
+  }
+  .boddy main {
+    width: 100%;
+  }
+  .boddy main form {
+    width: 400px;
+    height: 500px;
+    background: white;
+    margin: 60px auto;
+    border-radius: 8px;
+    -webkit-box-shadow: 1px 1px 1px 4px rgba(255, 176, 30, 0.127);
+            box-shadow: 1px 1px 1px 4px rgba(255, 176, 30, 0.127);
+  }
+  .boddy main form .singleDiv {
+    width: 100%;
+    height: 60px;
+    background: #5b5bff;
+    border-radius: 5px;
+  }
+  .boddy main form .singleDiv .headerLog {
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    margin: 10px auto;
+    position: relative;
+    top: 5px;
+  }
+  .boddy main form .singleDiv .headerLog i {
+    font-size: 35px;
+    margin: 5px auto auto 10px;
+    color: white;
+  }
+  .boddy main form .inputDiv {
+    width: 350px;
+    height: 180px;
+    margin: 20px auto auto 35px;
+  }
+  .boddy main form .inputDiv .secondInput {
+    margin-top: 15px;
+  }
+  .boddy main form .inputDiv .labelOne, .boddy main form .inputDiv a {
+    font-weight: 500;
+  }
+  .boddy main form .inputDiv .inputOne {
+    width: 300px;
+    padding: 12px;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  .boddy main form .inputDiv .inputOne:focus {
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    border: 1px solid #5b5bff;
+  }
+  .boddy main form .inputDiv p a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+  }
+  .boddy main form .inputDiv p a:hover {
+    color: #5b5bff;
+  }
+  .boddy main form .firstBtn {
+    width: 320px;
+    text-decoration: none;
+    padding: 10px;
+    margin: 30px auto auto 35px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background: #5b5bff;
+    cursor: pointer;
+  }
+  .boddy main form .firstBtn:hover {
+    background: #0365ac;
+  }
+  .boddy main form .firstBtn a {
+    width: 100%;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+  }
+  .boddy main form .paragraph {
+    margin-top: 20px;
+    margin-left: 100px;
+  }
+  .boddy main form .paragraph a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #5b5bff;
+  }
+  .boddy main form span {
+    margin-left: 180px;
+  }
+  .boddy main form .facebookOr {
+    text-decoration: none;
+    margin-top: 20px;
+    margin-left: 30px;
+  }
+  .boddy main form .facebookOr .button {
+    text-decoration: none;
+    width: 160px;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    padding: 11px;
+    font-size: 500;
+    cursor: pointer;
+  }
+  .boddy main form .facebookOr a {
+    width: 160px;
+    text-decoration: none;
+    color: wheat;
+  }
+  .boddy main form .facebookOr #btn {
+    background: #5b5bff;
+    color: white;
+  }
+  .boddy main form .facebookOr #btn:hover {
+    background: #0365ac;
+  }
+  .boddy main form .facebookOr #buton {
+    background: red;
+    color: white;
+  }
+  .boddy main form .facebookOr #buton:hover {
+    background: #0365ac;
+  }
+}
+
+@media (max-width: 992px) {
+  main {
+    width: 100%;
+    height: 70vh;
+    position: relative;
+  }
+  main .secondDiv {
+    width: 410px;
+    height: 600px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 40px;
+    background: rgba(0, 0, 108, 0.87);
+    position: relative;
+    -webkit-box-shadow: 1px 1px 2px 3px lightblue;
+            box-shadow: 1px 1px 2px 3px lightblue;
+  }
+  main .secondDiv .mainScreen {
+    width: 75%;
+    height: 100px;
+    background: #019801;
+    position: absolute;
+    top: 30px;
+    left: 50px;
+    border-radius: 7px;
+  }
+  main .secondDiv .mainScreen .operationSense {
+    margin-top: 5px;
+  }
+  main .secondDiv .mainScreen input {
+    width: 95%;
+    height: 45px;
+    margin-left: 8px;
+    border: none;
+    outline: none;
+    background: #019801;
+  }
+  main .secondDiv .mainScreen ::-webkit-input-placeholder {
+    color: black;
+    font-size: 16px;
+  }
+  main .secondDiv .mainScreen :-ms-input-placeholder {
+    color: black;
+    font-size: 16px;
+  }
+  main .secondDiv .mainScreen ::-ms-input-placeholder {
+    color: black;
+    font-size: 16px;
+  }
+  main .secondDiv .mainScreen ::placeholder {
+    color: black;
+    font-size: 16px;
+  }
+  main .secondDiv .powerButton {
+    width: 75%;
+    height: 70px;
+    background: transparent;
+    position: absolute;
+    top: 150px;
+    left: 50px;
+    border-radius: 7px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  main .secondDiv .powerButton button {
+    width: 40px;
+    height: 25px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 12px;
+    cursor: pointer;
+    -webkit-transition: 0.8s;
+    transition: 0.8s;
+    background: #0a8fbb;
+  }
+  main .secondDiv .powerButton button:hover {
+    background: white;
+    color: #0a8fbb;
+  }
+  main .secondDiv .powerButton .replayBtn {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+  }
+  main .secondDiv .arithmeticScientific {
+    width: 80%;
+    height: 340px;
+    background: transparent;
+    position: absolute;
+    top: 230px;
+    left: 45px;
+    border-radius: 7px;
+  }
+  main .secondDiv .arithmeticScientific .arithScien {
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+  }
+  main .secondDiv .arithmeticScientific .arithScien button {
+    width: 50px;
+    height: 25px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 12px;
+    cursor: pointer;
+    -webkit-transition: 0.8s;
+    transition: 0.8s;
+    margin-left: 14px;
+    background: #0a8fbb;
+  }
+  main .secondDiv .arithmeticScientific .arithScien button:hover {
+    background: white;
+    color: #0a8fbb;
+  }
+  main .secondDiv .arithmeticScientific .arithScien .firstBtn {
+    margin-left: 0px;
+  }
+  main .secondDiv .arithmeticScientific .arithScien #firstBtn, main .secondDiv .arithmeticScientific .arithScien #firsBtn, main .secondDiv .arithmeticScientific .arithScien #firBtn, main .secondDiv .arithmeticScientific .arithScien #fitBtn {
+    margin-left: 0px;
+  }
+  main .secondDiv .arithmeticScientific .arithScien .DEL, main .secondDiv .arithmeticScientific .arithScien .AC, main .secondDiv .arithmeticScientific .arithScien .Ans, main .secondDiv .arithmeticScientific .arithScien .equal {
+    background: yellow;
+    color: black;
+  }
+  main .secondDiv .arithmeticScientific .arithScien .DEL:hover, main .secondDiv .arithmeticScientific .arithScien .AC:hover, main .secondDiv .arithmeticScientific .arithScien .Ans:hover, main .secondDiv .arithmeticScientific .arithScien .equal:hover {
+    color: white;
+    background: #0a8fbb;
+  }
+  .boddy {
+    background: #ffdda1;
+    font-family: 'Catamaran', sans-serif;
+  }
+  .boddy main {
+    width: 100%;
+  }
+  .boddy main form {
+    width: 400px;
+    height: 500px;
+    background: blue;
+    margin: 60px auto;
+    border-radius: 8px;
+    -webkit-box-shadow: 1px 1px 1px 4px rgba(255, 176, 30, 0.127);
+            box-shadow: 1px 1px 1px 4px rgba(255, 176, 30, 0.127);
+  }
+  .boddy main form .singleDiv {
+    width: 100%;
+    height: 60px;
+    background: #5b5bff;
+    border-radius: 5px;
+  }
+  .boddy main form .singleDiv .headerLog {
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    margin: 10px auto;
+    position: relative;
+    top: 5px;
+  }
+  .boddy main form .singleDiv .headerLog i {
+    font-size: 35px;
+    margin: 5px auto auto 10px;
+    color: white;
+  }
+  .boddy main form .inputDiv {
+    width: 350px;
+    height: 180px;
+    margin: 20px auto auto 35px;
+  }
+  .boddy main form .inputDiv .secondInput {
+    margin-top: 15px;
+  }
+  .boddy main form .inputDiv .labelOne, .boddy main form .inputDiv a {
+    font-weight: 500;
+  }
+  .boddy main form .inputDiv .inputOne {
+    width: 300px;
+    padding: 12px;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  .boddy main form .inputDiv .inputOne:focus {
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    border: 1px solid #5b5bff;
+  }
+  .boddy main form .inputDiv p a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+  }
+  .boddy main form .inputDiv p a:hover {
+    color: #5b5bff;
+  }
+  .boddy main form .firstBtn {
+    width: 320px;
+    text-decoration: none;
+    padding: 10px;
+    margin: 30px auto auto 35px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background: #5b5bff;
+    cursor: pointer;
+  }
+  .boddy main form .firstBtn:hover {
+    background: #0365ac;
+  }
+  .boddy main form .firstBtn a {
+    width: 100%;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+  }
+  .boddy main form .paragraph {
+    margin-top: 20px;
+    margin-left: 100px;
+  }
+  .boddy main form .paragraph a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #5b5bff;
+  }
+  .boddy main form span {
+    margin-left: 180px;
+  }
+  .boddy main form .facebookOr {
+    text-decoration: none;
+    margin-top: 20px;
+    margin-left: 30px;
+  }
+  .boddy main form .facebookOr .button {
+    text-decoration: none;
+    width: 160px;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    padding: 11px;
+    font-size: 500;
+    cursor: pointer;
+  }
+  .boddy main form .facebookOr a {
+    width: 160px;
+    text-decoration: none;
+    color: wheat;
+  }
+  .boddy main form .facebookOr #btn {
+    background: #5b5bff;
+    color: white;
+  }
+  .boddy main form .facebookOr #btn:hover {
+    background: #0365ac;
+  }
+  .boddy main form .facebookOr #buton {
+    background: red;
+    color: white;
+  }
+  .boddy main form .facebookOr #buton:hover {
+    background: #0365ac;
+  }
+}
+
+@media (max-width: 760px) {
+  main {
+    width: 100%;
+    height: 70vh;
+    position: relative;
+  }
+  main .secondDiv {
+    width: 420px;
+    height: 600px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 40px;
+    background: rgba(0, 0, 108, 0.87);
+    position: relative;
+    -webkit-box-shadow: 1px 1px 2px 3px lightblue;
+            box-shadow: 1px 1px 2px 3px lightblue;
+  }
+  main .secondDiv .mainScreen {
+    width: 75%;
+    height: 100px;
+    background: #019801;
+    position: absolute;
+    top: 30px;
+    left: 50px;
+    border-radius: 7px;
+  }
+  main .secondDiv .mainScreen .operationSense {
+    margin-top: 5px;
+  }
+  main .secondDiv .mainScreen input {
+    width: 95%;
+    height: 45px;
+    margin-left: 8px;
+    border: none;
+    outline: none;
+    background: #019801;
+  }
+  main .secondDiv .mainScreen ::-webkit-input-placeholder {
+    color: black;
+    font-size: 16px;
+  }
+  main .secondDiv .mainScreen :-ms-input-placeholder {
+    color: black;
+    font-size: 16px;
+  }
+  main .secondDiv .mainScreen ::-ms-input-placeholder {
+    color: black;
+    font-size: 16px;
+  }
+  main .secondDiv .mainScreen ::placeholder {
+    color: black;
+    font-size: 16px;
+  }
+  main .secondDiv .powerButton {
+    width: 75%;
+    height: 70px;
+    background: transparent;
+    position: absolute;
+    top: 150px;
+    left: 50px;
+    border-radius: 7px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  main .secondDiv .powerButton button {
+    width: 40px;
+    height: 25px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 12px;
+    cursor: pointer;
+    -webkit-transition: 0.8s;
+    transition: 0.8s;
+    background: #0a8fbb;
+  }
+  main .secondDiv .powerButton button:hover {
+    background: white;
+    color: #0a8fbb;
+  }
+  main .secondDiv .powerButton .replayBtn {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+  }
+  main .secondDiv .arithmeticScientific {
+    width: 80%;
+    height: 340px;
+    background: transparent;
+    position: absolute;
+    top: 230px;
+    left: 45px;
+    border-radius: 7px;
+  }
+  main .secondDiv .arithmeticScientific .arithScien {
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+  }
+  main .secondDiv .arithmeticScientific .arithScien button {
+    width: 50px;
+    height: 25px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 12px;
+    cursor: pointer;
+    -webkit-transition: 0.8s;
+    transition: 0.8s;
+    margin-left: 14px;
+    background: #0a8fbb;
+  }
+  main .secondDiv .arithmeticScientific .arithScien button:hover {
+    background: white;
+    color: #0a8fbb;
+  }
+  main .secondDiv .arithmeticScientific .arithScien .firstBtn {
+    margin-left: 0px;
+  }
+  main .secondDiv .arithmeticScientific .arithScien #firstBtn, main .secondDiv .arithmeticScientific .arithScien #firsBtn, main .secondDiv .arithmeticScientific .arithScien #firBtn, main .secondDiv .arithmeticScientific .arithScien #fitBtn {
+    margin-left: 0px;
+  }
+  main .secondDiv .arithmeticScientific .arithScien .DEL, main .secondDiv .arithmeticScientific .arithScien .AC, main .secondDiv .arithmeticScientific .arithScien .Ans, main .secondDiv .arithmeticScientific .arithScien .equal {
+    background: yellow;
+    color: black;
+  }
+  main .secondDiv .arithmeticScientific .arithScien .DEL:hover, main .secondDiv .arithmeticScientific .arithScien .AC:hover, main .secondDiv .arithmeticScientific .arithScien .Ans:hover, main .secondDiv .arithmeticScientific .arithScien .equal:hover {
+    color: white;
+    background: #0a8fbb;
+  }
+  .boddy {
+    background: #ffdda1;
+    font-family: 'Catamaran', sans-serif;
+  }
+  .boddy main {
+    width: 60%;
+    background: red;
+  }
+  .boddy main form {
+    width: 170%;
+    height: 80vh;
+    background: white;
+    margin: 0px;
+    border-radius: 8px;
+    -webkit-box-shadow: 1px 1px 1px 4px rgba(255, 176, 30, 0.127);
+            box-shadow: 1px 1px 1px 4px rgba(255, 176, 30, 0.127);
+  }
+  .boddy main form .singleDiv {
+    width: 100%;
+    height: 60px;
+    background: #5b5bff;
+    border-radius: 5px;
+  }
+  .boddy main form .singleDiv .headerLog {
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    margin: 10px auto;
+    position: relative;
+    top: 5px;
+  }
+  .boddy main form .singleDiv .headerLog i {
+    font-size: 35px;
+    margin: 5px auto auto 10px;
+    color: white;
+  }
+  .boddy main form .inputDiv {
+    width: 50%;
+    height: 180px;
+    margin: 20px auto auto 35px;
+  }
+  .boddy main form .inputDiv .secondInput {
+    margin-top: 15px;
+  }
+  .boddy main form .inputDiv .labelOne, .boddy main form .inputDiv a {
+    font-weight: 500;
+  }
+  .boddy main form .inputDiv .inputOne {
+    width: 100%;
+    padding: 12px;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  .boddy main form .inputDiv .inputOne:focus {
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    border: 1px solid #5b5bff;
+  }
+  .boddy main form .inputDiv p a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+  }
+  .boddy main form .inputDiv p a:hover {
+    color: #5b5bff;
+  }
+  .boddy main form .firstBtn {
+    width: 320px;
+    text-decoration: none;
+    padding: 10px;
+    margin: 30px auto auto 35px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background: #5b5bff;
+    cursor: pointer;
+  }
+  .boddy main form .firstBtn:hover {
+    background: #0365ac;
+  }
+  .boddy main form .firstBtn a {
+    width: 100%;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+  }
+  .boddy main form .paragraph {
+    margin-top: 20px;
+    margin-left: 100px;
+  }
+  .boddy main form .paragraph a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #5b5bff;
+  }
+  .boddy main form span {
+    margin-left: 180px;
+  }
+  .boddy main form .facebookOr {
+    text-decoration: none;
+    margin-top: 20px;
+    margin-left: 30px;
+  }
+  .boddy main form .facebookOr .button {
+    text-decoration: none;
+    width: 160px;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    padding: 11px;
+    font-size: 500;
+    cursor: pointer;
+  }
+  .boddy main form .facebookOr a {
+    width: 160px;
+    text-decoration: none;
+    color: wheat;
+  }
+  .boddy main form .facebookOr #btn {
+    background: #5b5bff;
+    color: white;
+  }
+  .boddy main form .facebookOr #btn:hover {
+    background: #0365ac;
+  }
+  .boddy main form .facebookOr #buton {
+    background: red;
+    color: white;
+  }
+  .boddy main form .facebookOr #buton:hover {
+    background: #0365ac;
+  }
+}
+
+@media (max-width: 350px) {
+  main {
+    width: 100%;
+    height: 70vh;
+    position: relative;
+  }
+  main .secondDiv {
+    width: 100%;
+    height: 600px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 40px;
+    background: rgba(0, 0, 108, 0.87);
+    position: relative;
+    -webkit-box-shadow: 1px 1px 2px 3px lightblue;
+            box-shadow: 1px 1px 2px 3px lightblue;
+  }
+  main .secondDiv .mainScreen {
+    width: 90%;
+    height: 100px;
+    background: #019801;
+    position: absolute;
+    top: 30px;
+    left: 15px;
+    border-radius: 7px;
+  }
+  main .secondDiv .mainScreen .operationSense {
+    margin-top: 5px;
+  }
+  main .secondDiv .mainScreen input {
+    width: 95%;
+    height: 45px;
+    margin-left: 8px;
+    border: none;
+    outline: none;
+    background: #019801;
+  }
+  main .secondDiv .mainScreen ::-webkit-input-placeholder {
+    color: black;
+    font-size: 16px;
+  }
+  main .secondDiv .mainScreen :-ms-input-placeholder {
+    color: black;
+    font-size: 16px;
+  }
+  main .secondDiv .mainScreen ::-ms-input-placeholder {
+    color: black;
+    font-size: 16px;
+  }
+  main .secondDiv .mainScreen ::placeholder {
+    color: black;
+    font-size: 16px;
+  }
+  main .secondDiv .powerButton {
+    width: 75%;
+    height: 70px;
+    background: transparent;
+    position: absolute;
+    top: 150px;
+    left: 30px;
+    border-radius: 7px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  main .secondDiv .powerButton button {
+    width: 40px;
+    height: 25px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 12px;
+    cursor: pointer;
+    -webkit-transition: 0.8s;
+    transition: 0.8s;
+    background: #0a8fbb;
+  }
+  main .secondDiv .powerButton button:hover {
+    background: white;
+    color: #0a8fbb;
+  }
+  main .secondDiv .powerButton .replayBtn {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+  }
+  main .secondDiv .arithmeticScientific {
+    width: 80%;
+    height: 340px;
+    background: transparent;
+    position: absolute;
+    top: 230px;
+    left: 25px;
+    border-radius: 7px;
+  }
+  main .secondDiv .arithmeticScientific .arithScien {
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+  }
+  main .secondDiv .arithmeticScientific .arithScien button {
+    width: 30px;
+    height: 25px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 12px;
+    cursor: pointer;
+    -webkit-transition: 0.8s;
+    transition: 0.8s;
+    background: #0a8fbb;
+  }
+  main .secondDiv .arithmeticScientific .arithScien button:hover {
+    background: white;
+    color: #0a8fbb;
+  }
+  main .secondDiv .arithmeticScientific .arithScien .firstBtn {
+    margin-left: 0px;
+  }
+  main .secondDiv .arithmeticScientific .arithScien #firstBtn, main .secondDiv .arithmeticScientific .arithScien #firsBtn, main .secondDiv .arithmeticScientific .arithScien #firBtn, main .secondDiv .arithmeticScientific .arithScien #fitBtn {
+    margin-left: 0px;
+  }
+  main .secondDiv .arithmeticScientific .arithScien .DEL, main .secondDiv .arithmeticScientific .arithScien .AC, main .secondDiv .arithmeticScientific .arithScien .Ans, main .secondDiv .arithmeticScientific .arithScien .equal {
+    background: yellow;
+    color: black;
+  }
+  main .secondDiv .arithmeticScientific .arithScien .DEL:hover, main .secondDiv .arithmeticScientific .arithScien .AC:hover, main .secondDiv .arithmeticScientific .arithScien .Ans:hover, main .secondDiv .arithmeticScientific .arithScien .equal:hover {
+    color: white;
+    background: #0a8fbb;
+  }
+  .boddy {
+    background: #ffdda1;
+    font-family: 'Catamaran', sans-serif;
+  }
+  .boddy main {
+    width: 100%;
+    height: 100vh;
+  }
+  .boddy main form {
+    width: 100%;
+    height: 100vh;
+    background: white;
+    border-radius: 8px;
+    -webkit-box-shadow: 1px 1px 1px 4px rgba(255, 176, 30, 0.127);
+            box-shadow: 1px 1px 1px 4px rgba(255, 176, 30, 0.127);
+  }
+  .boddy main form .singleDiv {
+    width: 100%;
+    height: 60px;
+    background: #5b5bff;
+    border-radius: 5px;
+  }
+  .boddy main form .singleDiv .headerLog {
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    margin: 10px auto;
+    position: relative;
+    top: 5px;
+  }
+  .boddy main form .singleDiv .headerLog i {
+    font-size: 35px;
+    margin: 5px auto auto 10px;
+    color: white;
+  }
+  .boddy main form .inputDiv {
+    width: 100%;
+    height: 180px;
+    margin: 20px auto auto 35px;
+  }
+  .boddy main form .inputDiv .secondInput {
+    margin-top: 15px;
+  }
+  .boddy main form .inputDiv .labelOne, .boddy main form .inputDiv a {
+    font-weight: 500;
+  }
+  .boddy main form .inputDiv .inputOne {
+    width: 100%;
+    padding: 12px;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  .boddy main form .inputDiv .inputOne:focus {
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    border: 1px solid #5b5bff;
+  }
+  .boddy main form .inputDiv p a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+  }
+  .boddy main form .inputDiv p a:hover {
+    color: #5b5bff;
+  }
+  .boddy main form .firstBtn {
+    width: 100%;
+    text-decoration: none;
+    padding: 10px;
+    margin: 30px auto auto 35px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background: #5b5bff;
+    cursor: pointer;
+  }
+  .boddy main form .firstBtn:hover {
+    background: #0365ac;
+  }
+  .boddy main form .firstBtn a {
+    width: 100%;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+  }
+  .boddy main form .paragraph {
+    margin-top: 20px;
+    margin-left: 100px;
+  }
+  .boddy main form .paragraph a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #5b5bff;
+  }
+  .boddy main form span {
+    margin-left: 180px;
+  }
+  .boddy main form .facebookOr {
+    text-decoration: none;
+    margin-top: 20px;
+    margin-left: 30px;
+  }
+  .boddy main form .facebookOr .button {
+    text-decoration: none;
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    padding: 11px;
+    font-size: 500;
+    cursor: pointer;
+  }
+  .boddy main form .facebookOr a {
+    width: 160px;
+    text-decoration: none;
+    color: wheat;
+  }
+  .boddy main form .facebookOr #btn {
+    background: #5b5bff;
+    color: white;
+  }
+  .boddy main form .facebookOr #btn:hover {
+    background: #0365ac;
+  }
+  .boddy main form .facebookOr #buton {
+    background: red;
+    color: white;
+  }
+  .boddy main form .facebookOr #buton:hover {
+    background: #0365ac;
+  }
 }
 /*# sourceMappingURL=style.css.map */
