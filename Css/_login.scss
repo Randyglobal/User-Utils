@@ -39,6 +39,15 @@
                 height: 180px;
                 margin: 20px auto auto 35px;
                 // background: red;
+                position: relative;
+
+                .icon{
+                    height: 10px;
+                    left: 300px;
+                    top: 120px;
+                    cursor: pointer;
+                    position: absolute;
+                }
 
                 .secondInput{
                     margin-top: 15px;
@@ -50,7 +59,7 @@
 
                 .inputOne{
                     width: 300px;
-                    padding: 12px;
+                    padding: 10px;
                     outline: none;
                     border: 1px solid gray;
                     border-radius: 4px;

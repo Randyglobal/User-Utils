@@ -18,9 +18,9 @@ const clearAll = document.querySelectorAll('button.calFunction');
 //sciencetific operation
 const scienceOps = document.querySelectorAll('button.scienceOps');
 //answer button
-const anwer = document.getElementsByClassName('Ans');
 //equal
 const equal = document.querySelector('button.equal');
+const randy = window.document.getElementById('result');
 
 //operation on digits
 //i tried to call a function here using .forEach forgeting that i did not assign the value as a 
@@ -42,9 +42,16 @@ arithmeticOps.forEach(operator => {
             // const {operation,value} = operationParser(operationScreen.value);
             result = eval(operationScreen.value);
             answerScreen.value = result;
+            
         }else{
             operationScreen.value += event.target.innerText;
         };
+
+        if(clickedOperator == 'Ans'){
+            result = localStorage.getItem('label');
+            answerScreen.value = result;
+            operationScreen.value = result
+        }
 
     });
 });
@@ -66,6 +73,14 @@ clearAll.forEach(clearFunc => {
             // let randy = operationScreen.value;
             // operationScreen.value = randy.substr(0, randy.length - 1);
         };
+
+        if(clickedOperator == 'M+'){
+            localStorage.setItem('label', result.value);
+        }
+
+        if(clickedOperator == 'M-'){
+            localStorage.removeItem('label')
+        }
     });
 });
 
@@ -96,10 +111,6 @@ scienceOps.forEach(operation => {
 //     }
 // }
 // })
-// anwer.addEventListener('click', (event) =>{
-//     event.preventDefault();
-//     //localStorage => WEB APIs
-//     localStorage.setItem("start", true)
-//   });
+
   
 

@@ -31,22 +31,24 @@
 @import './group';
 @import './login';
 @import './signup';
-@media (min-width: 1200px) {
-    @import './media/large';
-    @import './login/loginL';
-}   
-@media (max-width: 992px) {
-    @import './media/normal';
-    @import './login/loginN';
-}
-@media (max-width: 760px) {
-    @import './media/tablet';
-    @import './login/loginT';
-}
-@media (max-width: 350px) {
-    @import './media/mobile';
-    @import './login/loginM';
-}
+@import './forgot';
+@import './password';
+// @media (min-width: 1200px) {
+//     @import './media/large';
+//     @import './login/loginL';
+// }   
+// @media (max-width: 992px) {
+//     @import './media/normal';
+//     @import './login/loginN';
+// }
+// @media (max-width: 760px) {
+//     @import './media/tablet';
+//     @import './login/loginT';
+// }
+// @media (max-width: 350px) {
+//     @import './media/mobile';
+//     @import './login/loginM';
+// }
 
 
  
