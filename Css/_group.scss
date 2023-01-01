@@ -1,8 +1,9 @@
 .body {
-    background: rgb(255, 221, 161);
+    // background: rgba(1, 1, 45, 0.631);
     font-family: 'Catamaran', sans-serif;
 
     .groupConatainer {
+        box-shadow: 1px 1px 1px 4px rgba(39, 38, 38, 0.127);
         width: 1025px;
         height: 90vh;
         margin: 30px auto;
@@ -14,7 +15,7 @@
             width: 10%;
             height: 87vh;
             margin-top: 10px;
-            background: rgb(0, 0, 179);
+            background: rgb(9, 0, 105);
             border-radius: 10px;
             margin-left: 20px;
 
@@ -49,19 +50,21 @@
                     border-radius: 10px;
                     margin: 30px 0 0 30px;
 
-                    .left{
+                    .left {
                         // background: black;
                         width: 200px;
                         margin-left: 10px;
-                        p{
+
+                        p {
                             font-size: 20px;
                             padding-top: 20px;
                         }
-                        h6{
+
+                        h6 {
                             font-weight: 200;
                         }
                     }
-                    
+
 
                     .sideDiv {
                         position: absolute;
@@ -69,7 +72,7 @@
                         height: inherit;
                         margin-left: 180px;
                         // border-radius: 15px;
-                        background-image: url(/Images/comp.jpeg);
+                        background-image: url(/Images/Laptop-PNG-File-removebg-preview.png);
                         background-repeat: no-repeat;
                         background-size: cover;
                         top: 40px;
@@ -119,14 +122,14 @@
                         top: 20px;
                         left: 40px;
                         position: relative;
-                        
+
 
                         .center {
                             display: flex;
                             position: absolute;
                             top: 40px;
-                            
-                            a{
+
+                            a {
                                 text-decoration: none;
                                 color: white;
                             }
@@ -143,20 +146,23 @@
                             .miniOther {
                                 width: 90px;
                                 height: 30px;
-                                background: blue;
+                                background: rgb(9, 0, 105);
+
                                 text-align: center;
                                 margin: 40px auto auto -140px;
                                 border-radius: 7px;
 
                             }
                         }
-                       
+
                     }
-                    h3{
+
+                    h3 {
                         margin-top: 50px;
                         margin-left: 100px;
                     }
-                    .statistics{
+
+                    .statistics {
                         position: relative;
                         width: 270px;
                         height: 250px;

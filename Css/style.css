@@ -163,11 +163,12 @@ main .secondDiv .arithmeticScientific .arithScien .DEL:hover, main .secondDiv .a
 }
 
 .body {
-  background: #ffdda1;
   font-family: 'Catamaran', sans-serif;
 }
 
 .body .groupConatainer {
+  -webkit-box-shadow: 1px 1px 1px 4px rgba(39, 38, 38, 0.127);
+          box-shadow: 1px 1px 1px 4px rgba(39, 38, 38, 0.127);
   width: 1025px;
   height: 90vh;
   margin: 30px auto;
@@ -182,7 +183,7 @@ main .secondDiv .arithmeticScientific .arithScien .DEL:hover, main .secondDiv .a
   width: 10%;
   height: 87vh;
   margin-top: 10px;
-  background: #0000b3;
+  background: #090069;
   border-radius: 10px;
   margin-left: 20px;
 }
@@ -242,7 +243,7 @@ main .secondDiv .arithmeticScientific .arithScien .DEL:hover, main .secondDiv .a
   width: 130px;
   height: inherit;
   margin-left: 180px;
-  background-image: url(/Images/comp.jpeg);
+  background-image: url(/Images/Laptop-PNG-File-removebg-preview.png);
   background-repeat: no-repeat;
   background-size: cover;
   top: 40px;
@@ -323,7 +324,7 @@ main .secondDiv .arithmeticScientific .arithScien .DEL:hover, main .secondDiv .a
 .body .groupConatainer .groupRight .rightSide .otherFunctions .subFunctions .center .miniOther {
   width: 90px;
   height: 30px;
-  background: blue;
+  background: #090069;
   text-align: center;
   margin: 40px auto auto -140px;
   border-radius: 7px;
@@ -345,33 +346,32 @@ main .secondDiv .arithmeticScientific .arithScien .DEL:hover, main .secondDiv .a
   left: 30px;
 }
 
-.boddy {
-  background: #ffdda1;
+.body {
   font-family: 'Catamaran', sans-serif;
 }
 
-.boddy main {
+.body main {
   width: 100%;
 }
 
-.boddy main form {
+.body main form {
   width: 400px;
   height: 500px;
   background: white;
   margin: 60px auto;
   border-radius: 8px;
-  -webkit-box-shadow: 1px 1px 1px 4px rgba(255, 176, 30, 0.127);
-          box-shadow: 1px 1px 1px 4px rgba(255, 176, 30, 0.127);
+  -webkit-box-shadow: 1px 1px 1px 4px rgba(39, 38, 38, 0.127);
+          box-shadow: 1px 1px 1px 4px rgba(39, 38, 38, 0.127);
 }
 
-.boddy main form .singleDiv {
+.body main form .singleDiv {
   width: 100%;
   height: 60px;
   background: #5b5bff;
   border-radius: 5px;
 }
 
-.boddy main form .singleDiv .headerLog {
+.body main form .singleDiv .headerLog {
   width: 50px;
   height: 50px;
   border-radius: 30px;
@@ -380,20 +380,20 @@ main .secondDiv .arithmeticScientific .arithScien .DEL:hover, main .secondDiv .a
   top: 5px;
 }
 
-.boddy main form .singleDiv .headerLog i {
+.body main form .singleDiv .headerLog i {
   font-size: 35px;
   margin: 5px auto auto 10px;
   color: white;
 }
 
-.boddy main form .inputDiv {
+.body main form .inputDiv {
   width: 350px;
   height: 180px;
   margin: 20px auto auto 35px;
   position: relative;
 }
 
-.boddy main form .inputDiv .icon {
+.body main form .inputDiv .icon {
   height: 10px;
   left: 300px;
   top: 120px;
@@ -401,15 +401,15 @@ main .secondDiv .arithmeticScientific .arithScien .DEL:hover, main .secondDiv .a
   position: absolute;
 }
 
-.boddy main form .inputDiv .secondInput {
+.body main form .inputDiv .secondInput {
   margin-top: 15px;
 }
 
-.boddy main form .inputDiv .labelOne, .boddy main form .inputDiv a {
+.body main form .inputDiv .labelOne, .body main form .inputDiv a {
   font-weight: 500;
 }
 
-.boddy main form .inputDiv .inputOne {
+.body main form .inputDiv .inputOne {
   width: 300px;
   padding: 10px;
   outline: none;
@@ -418,23 +418,23 @@ main .secondDiv .arithmeticScientific .arithScien .DEL:hover, main .secondDiv .a
   font-size: 16px;
 }
 
-.boddy main form .inputDiv .inputOne:focus {
+.body main form .inputDiv .inputOne:focus {
   -webkit-transition: 0.3s;
   transition: 0.3s;
   border: 1px solid #5b5bff;
 }
 
-.boddy main form .inputDiv p a {
+.body main form .inputDiv p a {
   text-decoration: none;
   color: black;
   font-weight: 600;
 }
 
-.boddy main form .inputDiv p a:hover {
+.body main form .inputDiv p a:hover {
   color: #5b5bff;
 }
 
-.boddy main form .firstBtn {
+.body main form .firstBtn {
   width: 320px;
   text-decoration: none;
   padding: 10px;
@@ -446,39 +446,39 @@ main .secondDiv .arithmeticScientific .arithScien .DEL:hover, main .secondDiv .a
   cursor: pointer;
 }
 
-.boddy main form .firstBtn:hover {
+.body main form .firstBtn:hover {
   background: #0365ac;
 }
 
-.boddy main form .firstBtn a {
+.body main form .firstBtn a {
   width: 100%;
   padding: 10px;
   text-decoration: none;
   color: white;
 }
 
-.boddy main form .paragraph {
+.body main form .paragraph {
   margin-top: 20px;
   margin-left: 100px;
 }
 
-.boddy main form .paragraph a {
+.body main form .paragraph a {
   text-decoration: none;
   font-weight: 600;
   color: #5b5bff;
 }
 
-.boddy main form span {
+.body main form span {
   margin-left: 180px;
 }
 
-.boddy main form .facebookOr {
+.body main form .facebookOr {
   text-decoration: none;
   margin-top: 20px;
   margin-left: 30px;
 }
 
-.boddy main form .facebookOr .button {
+.body main form .facebookOr .button {
   text-decoration: none;
   width: 160px;
   outline: none;
@@ -489,27 +489,27 @@ main .secondDiv .arithmeticScientific .arithScien .DEL:hover, main .secondDiv .a
   cursor: pointer;
 }
 
-.boddy main form .facebookOr a {
+.body main form .facebookOr a {
   width: 160px;
   text-decoration: none;
   color: wheat;
 }
 
-.boddy main form .facebookOr #btn {
+.body main form .facebookOr #btn {
   background: #5b5bff;
   color: white;
 }
 
-.boddy main form .facebookOr #btn:hover {
+.body main form .facebookOr #btn:hover {
   background: #0365ac;
 }
 
-.boddy main form .facebookOr #buton {
+.body main form .facebookOr #buton {
   background: red;
   color: white;
 }
 
-.boddy main form .facebookOr #buton:hover {
+.body main form .facebookOr #buton:hover {
   background: #0365ac;
 }
 
@@ -836,5 +836,178 @@ main .secondDiv .arithmeticScientific .arithScien .DEL:hover, main .secondDiv .a
   padding: 10px;
   text-decoration: none;
   color: white;
+}
+
+header {
+  font-family: 'Catamaran', sans-serif;
+  width: 100%;
+  height: 170px;
+  position: relative;
+}
+
+header .centerDiv {
+  width: 90%;
+  height: 70px;
+  margin: 10px auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .centerDiv .logoDiv {
+  width: 80px;
+  height: 70px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header .centerDiv .logoDiv img {
+  width: inherit;
+  height: 70px;
+}
+
+header .centerDiv nav {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+header .centerDiv nav ul li {
+  display: inline;
+}
+
+header .centerDiv nav ul li a {
+  color: black;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+header .centerDiv nav ul li a:hover {
+  color: blue;
+}
+
+header .coverDiv {
+  width: 100%;
+  height: 80vh;
+  margin-top: -10px;
+}
+
+header .coverDiv img {
+  width: inherit;
+  height: inherit;
+}
+
+header .containerDiv {
+  width: 100%;
+  height: 80vh;
+  background: rgba(1, 1, 45, 0.631);
+  position: absolute;
+  top: 70px;
+  text-align: center;
+  color: white;
+}
+
+header .containerDiv h1 {
+  font-size: 90px;
+  margin-top: 150px;
+  line-height: 80px;
+}
+
+header .containerDiv p {
+  font-size: 20px;
+}
+
+header .containerDiv button {
+  margin-top: 20px;
+  border: none;
+  outline: none;
+  padding: 10px 30px 10px 30px;
+  margin-left: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+header .containerDiv button:hover {
+  background: #5b5bff;
+}
+
+header .containerDiv button a {
+  text-decoration: none;
+  font-size: 19px;
+  color: black;
+}
+
+header .containerDiv button a:hover {
+  color: white;
+}
+
+section .smallParagraph {
+  text-align: center;
+  width: 100%;
+  height: 30vh;
+  color: black;
+  position: absolute;
+  top: 600px;
+}
+
+section .smallParagraph h1 {
+  margin-top: 40px;
+  font-size: 60px;
+  font-family: 'Catamaran', sans-serif;
+}
+
+section .smallParagraph p {
+  font-family: 'Catamaran', sans-serif;
+  width: 50%;
+  margin-left: 350px;
+}
+
+footer {
+  width: 100%;
+  height: 10vh;
+  background: rgba(214, 214, 247, 0.249);
+  position: absolute;
+  top: 900px;
+  font-family: 'Catamaran', sans-serif;
+}
+
+footer .centerDiv {
+  width: 90%;
+  height: 5vh;
+  margin: 10px auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .centerDiv .logoDiv {
+  width: 80px;
+  height: inherit;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+footer .centerDiv nav {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+footer .centerDiv nav ul li {
+  display: inline;
+}
+
+footer .centerDiv nav ul li a {
+  color: black;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+footer .centerDiv nav ul li a:hover {
+  color: blue;
 }
 /*# sourceMappingURL=style.css.map */
