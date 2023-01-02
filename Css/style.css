@@ -1279,7 +1279,7 @@ footer .centerDiv nav ul li a:hover {
     top: 600px;
   }
   section .smallParagraph h1 {
-    margin-top: 130px;
+    margin-top: 210px;
     font-size: 50px;
     font-family: 'Catamaran', sans-serif;
   }
@@ -1290,10 +1290,10 @@ footer .centerDiv nav ul li a:hover {
   }
   footer {
     width: 100%;
-    height: 10vh;
+    height: 9vh;
     background: rgba(214, 214, 247, 0.249);
     position: absolute;
-    top: 1010px;
+    top: 1070px;
     font-family: 'Catamaran', sans-serif;
   }
   footer .centerDiv {
@@ -1366,7 +1366,6 @@ footer .centerDiv nav ul li a:hover {
     font-size: 20px;
   }
   header .centerDiv nav {
-    display: none;
     margin-top: 20px;
     font-size: 16px;
   }
@@ -1562,7 +1561,6 @@ footer .centerDiv nav ul li a:hover {
   header .containerDiv {
     width: 100%;
     height: 70vh;
-    background: rgba(1, 1, 45, 0.631);
     position: absolute;
     top: 70px;
     text-align: center;
