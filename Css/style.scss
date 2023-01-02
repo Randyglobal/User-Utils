@@ -35,23 +35,23 @@
 @import './password';
 @import './index';
 @media (min-width: 1200px) {
-    @import './media/large';
-    @import './login/loginL';
+    // @import './media/large';
+    // @import './login/loginL';
     @import './index/indexL';
 }   
 @media (max-width: 992px) {
-    @import './media/normal';
-    @import './login/loginN';
+    // @import './media/normal';
+    // @import './login/loginN';
     @import './index/indexN';
 }
-@media (max-width: 760px) {
-    @import './media/tablet';
-    @import './login/loginT';
+@media (max-width: 765px) {
+    // @import './media/tablet';
+    // @import './login/loginT';
     @import './index/indexT';
 }
-@media (max-width: 350px) {
-    @import './media/mobile';
-    @import './login/loginM';
+@media (max-width: 576px) {
+    // @import './media/mobile';
+    // @import './login/loginM';
     @import './index/indexM';
 }
 

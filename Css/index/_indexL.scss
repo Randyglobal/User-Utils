@@ -25,11 +25,15 @@ header {
                 height: 70px;
             }
         }
-
+        .icon{
+            display: none;
+        }
 
         nav {
             margin-top: 20px;
             font-size: 18px;
+            display: block;
+
 
             ul {
                 li {
@@ -54,6 +58,9 @@ header {
         width: 100%;
         height: 80vh;
         margin-top: -10px;
+        background-image: url(/Images/Background-pic.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
 
         img {
             width: inherit;

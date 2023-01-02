@@ -4,7 +4,9 @@
 
 let eye = window.document.getElementById('eyeIcon')
 let password = window.document.getElementById('password');
+
 password.type = 'password';
+
 // button.addEventListener('click', function(){
 //     if(password.length == 8){
 
@@ -26,6 +28,9 @@ eye.addEventListener('click', function(){
         password.type = 'password';
     }
 })
+
+
+
 
 
 

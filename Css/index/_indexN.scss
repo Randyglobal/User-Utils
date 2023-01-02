@@ -26,11 +26,14 @@ header {
                 height: 60px;
             }
         }
-
+        .icon{
+            display: none;
+        }       
 
         nav {
             margin-top: 20px;
             font-size: 16px;
+
 
             ul {
                 li {
@@ -53,8 +56,11 @@ header {
 
     .coverDiv {
         width: 100%;
-        height: 80vh;
+        height: 60vh;
         margin-top: -10px;
+        background-image: url(/Images/Background-pic.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
 
         img {
             width: inherit;
@@ -64,7 +70,7 @@ header {
 
     .containerDiv {
         width: 100%;
-        height: 80vh;
+        height: 60vh;
         background: rgba(1, 1, 45, 0.631);
         position: absolute;
         top: 70px;
@@ -73,7 +79,7 @@ header {
 
         h1 {
             font-size: 70px;
-            margin-top: 150px;
+            margin-top: 200px;
             line-height: 80px;
         }
 
@@ -121,14 +127,14 @@ section {
         top: 600px;
 
         h1{
-            margin-top: 40px;
+            margin-top: 130px;
             font-size: 50px;
             font-family: 'Catamaran', sans-serif;
         }
         p{
             font-family: 'Catamaran', sans-serif;
             width: 50%;
-            margin-left: 230px;
+            margin-left: 190px;
         }
     }
     
@@ -139,7 +145,7 @@ footer{
     height: 10vh;
     background: rgba(214, 214, 247, 0.249);
     position: absolute;
-    top: 900px;
+    top: 1010px;
     font-family: 'Catamaran', sans-serif;
 
     .centerDiv {
