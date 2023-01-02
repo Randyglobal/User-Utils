@@ -910,7 +910,7 @@ header .containerDiv {
 }
 
 header .containerDiv h1 {
-  font-size: 90px;
+  font-size: 80px;
   margin-top: 150px;
   line-height: 80px;
 }
@@ -961,7 +961,7 @@ section .smallParagraph h1 {
 section .smallParagraph p {
   font-family: 'Catamaran', sans-serif;
   width: 50%;
-  margin-left: 350px;
+  margin-left: 300px;
 }
 
 footer {
@@ -1009,5 +1009,1683 @@ footer .centerDiv nav ul li a {
 
 footer .centerDiv nav ul li a:hover {
   color: blue;
+}
+
+@media (min-width: 1200px) {
+  main {
+    width: 100%;
+    height: 70vh;
+    position: relative;
+  }
+  main .secondDiv {
+    width: 410px;
+    height: 600px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 40px;
+    background: rgba(0, 0, 108, 0.87);
+    position: relative;
+    -webkit-box-shadow: 1px 1px 2px 3px lightblue;
+            box-shadow: 1px 1px 2px 3px lightblue;
+  }
+  main .secondDiv .mainScreen {
+    width: 75%;
+    height: 100px;
+    background: #019801;
+    position: absolute;
+    top: 30px;
+    left: 50px;
+    border-radius: 7px;
+  }
+  main .secondDiv .mainScreen .operationSense {
+    margin-top: 5px;
+  }
+  main .secondDiv .mainScreen input {
+    width: 95%;
+    height: 45px;
+    margin-left: 8px;
+    border: none;
+    outline: none;
+    background: #019801;
+  }
+  main .secondDiv .mainScreen ::-webkit-input-placeholder {
+    color: black;
+    font-size: 16px;
+  }
+  main .secondDiv .mainScreen :-ms-input-placeholder {
+    color: black;
+    font-size: 16px;
+  }
+  main .secondDiv .mainScreen ::-ms-input-placeholder {
+    color: black;
+    font-size: 16px;
+  }
+  main .secondDiv .mainScreen ::placeholder {
+    color: black;
+    font-size: 16px;
+  }
+  main .secondDiv .powerButton {
+    width: 75%;
+    height: 70px;
+    background: transparent;
+    position: absolute;
+    top: 150px;
+    left: 50px;
+    border-radius: 7px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  main .secondDiv .powerButton button {
+    width: 40px;
+    height: 25px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 12px;
+    cursor: pointer;
+    -webkit-transition: 0.8s;
+    transition: 0.8s;
+    background: #0a8fbb;
+  }
+  main .secondDiv .powerButton button:hover {
+    background: white;
+    color: #0a8fbb;
+  }
+  main .secondDiv .powerButton .replayBtn {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+  }
+  main .secondDiv .arithmeticScientific {
+    width: 80%;
+    height: 340px;
+    background: transparent;
+    position: absolute;
+    top: 230px;
+    left: 43px;
+    border-radius: 7px;
+  }
+  main .secondDiv .arithmeticScientific .arithScien {
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+  }
+  main .secondDiv .arithmeticScientific .arithScien button {
+    width: 50px;
+    height: 25px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 12px;
+    cursor: pointer;
+    -webkit-transition: 0.8s;
+    transition: 0.8s;
+    margin-left: 14px;
+    background: #0a8fbb;
+  }
+  main .secondDiv .arithmeticScientific .arithScien button:hover {
+    background: white;
+    color: #0a8fbb;
+  }
+  main .secondDiv .arithmeticScientific .arithScien .firstBtn {
+    margin-left: 0px;
+  }
+  main .secondDiv .arithmeticScientific .arithScien #firstBtn, main .secondDiv .arithmeticScientific .arithScien #firsBtn, main .secondDiv .arithmeticScientific .arithScien #firBtn, main .secondDiv .arithmeticScientific .arithScien #fitBtn {
+    margin-left: 0px;
+  }
+  main .secondDiv .arithmeticScientific .arithScien .DEL, main .secondDiv .arithmeticScientific .arithScien .AC, main .secondDiv .arithmeticScientific .arithScien .Ans, main .secondDiv .arithmeticScientific .arithScien .equal {
+    background: yellow;
+    color: black;
+  }
+  main .secondDiv .arithmeticScientific .arithScien .DEL:hover, main .secondDiv .arithmeticScientific .arithScien .AC:hover, main .secondDiv .arithmeticScientific .arithScien .Ans:hover, main .secondDiv .arithmeticScientific .arithScien .equal:hover {
+    color: white;
+    background: #0a8fbb;
+  }
+  .boddy {
+    background: #ffdda1;
+    font-family: 'Catamaran', sans-serif;
+  }
+  .boddy main {
+    width: 100%;
+  }
+  .boddy main form {
+    width: 400px;
+    height: 500px;
+    background: white;
+    margin: 60px auto;
+    border-radius: 8px;
+    -webkit-box-shadow: 1px 1px 1px 4px rgba(255, 176, 30, 0.127);
+            box-shadow: 1px 1px 1px 4px rgba(255, 176, 30, 0.127);
+  }
+  .boddy main form .singleDiv {
+    width: 100%;
+    height: 60px;
+    background: #5b5bff;
+    border-radius: 5px;
+  }
+  .boddy main form .singleDiv .headerLog {
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    margin: 10px auto;
+    position: relative;
+    top: 5px;
+  }
+  .boddy main form .singleDiv .headerLog i {
+    font-size: 35px;
+    margin: 5px auto auto 10px;
+    color: white;
+  }
+  .boddy main form .inputDiv {
+    width: 350px;
+    height: 180px;
+    margin: 20px auto auto 35px;
+  }
+  .boddy main form .inputDiv .secondInput {
+    margin-top: 15px;
+  }
+  .boddy main form .inputDiv .labelOne, .boddy main form .inputDiv a {
+    font-weight: 500;
+  }
+  .boddy main form .inputDiv .inputOne {
+    width: 300px;
+    padding: 12px;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  .boddy main form .inputDiv .inputOne:focus {
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    border: 1px solid #5b5bff;
+  }
+  .boddy main form .inputDiv p a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+  }
+  .boddy main form .inputDiv p a:hover {
+    color: #5b5bff;
+  }
+  .boddy main form .firstBtn {
+    width: 320px;
+    text-decoration: none;
+    padding: 10px;
+    margin: 30px auto auto 35px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background: #5b5bff;
+    cursor: pointer;
+  }
+  .boddy main form .firstBtn:hover {
+    background: #0365ac;
+  }
+  .boddy main form .firstBtn a {
+    width: 100%;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+  }
+  .boddy main form .paragraph {
+    margin-top: 20px;
+    margin-left: 100px;
+  }
+  .boddy main form .paragraph a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #5b5bff;
+  }
+  .boddy main form span {
+    margin-left: 180px;
+  }
+  .boddy main form .facebookOr {
+    text-decoration: none;
+    margin-top: 20px;
+    margin-left: 30px;
+  }
+  .boddy main form .facebookOr .button {
+    text-decoration: none;
+    width: 160px;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    padding: 11px;
+    font-size: 500;
+    cursor: pointer;
+  }
+  .boddy main form .facebookOr a {
+    width: 160px;
+    text-decoration: none;
+    color: wheat;
+  }
+  .boddy main form .facebookOr #btn {
+    background: #5b5bff;
+    color: white;
+  }
+  .boddy main form .facebookOr #btn:hover {
+    background: #0365ac;
+  }
+  .boddy main form .facebookOr #buton {
+    background: red;
+    color: white;
+  }
+  .boddy main form .facebookOr #buton:hover {
+    background: #0365ac;
+  }
+  header {
+    font-family: 'Catamaran', sans-serif;
+    width: 100%;
+    height: 170px;
+    position: relative;
+  }
+  header .centerDiv {
+    width: 90%;
+    height: 70px;
+    margin: 10px auto;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  header .centerDiv .logoDiv {
+    width: 80px;
+    height: 70px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  header .centerDiv .logoDiv img {
+    width: inherit;
+    height: 70px;
+  }
+  header .centerDiv nav {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  header .centerDiv nav ul li {
+    display: inline;
+  }
+  header .centerDiv nav ul li a {
+    color: black;
+    text-decoration: none;
+    margin-left: 10px;
+  }
+  header .centerDiv nav ul li a:hover {
+    color: blue;
+  }
+  header .coverDiv {
+    width: 100%;
+    height: 80vh;
+    margin-top: -10px;
+  }
+  header .coverDiv img {
+    width: inherit;
+    height: inherit;
+  }
+  header .containerDiv {
+    width: 100%;
+    height: 80vh;
+    background: rgba(1, 1, 45, 0.631);
+    position: absolute;
+    top: 70px;
+    text-align: center;
+    color: white;
+  }
+  header .containerDiv h1 {
+    font-size: 80px;
+    margin-top: 150px;
+    line-height: 80px;
+  }
+  header .containerDiv p {
+    font-size: 20px;
+  }
+  header .containerDiv button {
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    padding: 10px 30px 10px 30px;
+    margin-left: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  header .containerDiv button:hover {
+    background: #5b5bff;
+  }
+  header .containerDiv button a {
+    text-decoration: none;
+    font-size: 19px;
+    color: black;
+  }
+  header .containerDiv button a:hover {
+    color: white;
+  }
+  section .smallParagraph {
+    text-align: center;
+    width: 100%;
+    height: 30vh;
+    color: black;
+    position: absolute;
+    top: 600px;
+  }
+  section .smallParagraph h1 {
+    margin-top: 40px;
+    font-size: 60px;
+    font-family: 'Catamaran', sans-serif;
+  }
+  section .smallParagraph p {
+    font-family: 'Catamaran', sans-serif;
+    width: 50%;
+    margin-left: 300px;
+  }
+  footer {
+    width: 100%;
+    height: 10vh;
+    background: rgba(214, 214, 247, 0.249);
+    position: absolute;
+    top: 900px;
+    font-family: 'Catamaran', sans-serif;
+  }
+  footer .centerDiv {
+    width: 90%;
+    height: 5vh;
+    margin: 10px auto;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  footer .centerDiv .logoDiv {
+    width: 80px;
+    height: inherit;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  footer .centerDiv nav {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  footer .centerDiv nav ul li {
+    display: inline;
+  }
+  footer .centerDiv nav ul li a {
+    color: black;
+    text-decoration: none;
+    margin-left: 10px;
+  }
+  footer .centerDiv nav ul li a:hover {
+    color: blue;
+  }
+}
+
+@media (max-width: 992px) {
+  main {
+    width: 100%;
+    height: 70vh;
+    position: relative;
+  }
+  main .secondDiv {
+    width: 410px;
+    height: 600px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 40px;
+    background: rgba(0, 0, 108, 0.87);
+    position: relative;
+    -webkit-box-shadow: 1px 1px 2px 3px lightblue;
+            box-shadow: 1px 1px 2px 3px lightblue;
+  }
+  main .secondDiv .mainScreen {
+    width: 75%;
+    height: 100px;
+    background: #019801;
+    position: absolute;
+    top: 30px;
+    left: 50px;
+    border-radius: 7px;
+  }
+  main .secondDiv .mainScreen .operationSense {
+    margin-top: 5px;
+  }
+  main .secondDiv .mainScreen input {
+    width: 95%;
+    height: 45px;
+    margin-left: 8px;
+    border: none;
+    outline: none;
+    background: #019801;
+  }
+  main .secondDiv .mainScreen ::-webkit-input-placeholder {
+    color: black;
+    font-size: 16px;
+  }
+  main .secondDiv .mainScreen :-ms-input-placeholder {
+    color: black;
+    font-size: 16px;
+  }
+  main .secondDiv .mainScreen ::-ms-input-placeholder {
+    color: black;
+    font-size: 16px;
+  }
+  main .secondDiv .mainScreen ::placeholder {
+    color: black;
+    font-size: 16px;
+  }
+  main .secondDiv .powerButton {
+    width: 75%;
+    height: 70px;
+    background: transparent;
+    position: absolute;
+    top: 150px;
+    left: 50px;
+    border-radius: 7px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  main .secondDiv .powerButton button {
+    width: 40px;
+    height: 25px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 12px;
+    cursor: pointer;
+    -webkit-transition: 0.8s;
+    transition: 0.8s;
+    background: #0a8fbb;
+  }
+  main .secondDiv .powerButton button:hover {
+    background: white;
+    color: #0a8fbb;
+  }
+  main .secondDiv .powerButton .replayBtn {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+  }
+  main .secondDiv .arithmeticScientific {
+    width: 80%;
+    height: 340px;
+    background: transparent;
+    position: absolute;
+    top: 230px;
+    left: 45px;
+    border-radius: 7px;
+  }
+  main .secondDiv .arithmeticScientific .arithScien {
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+  }
+  main .secondDiv .arithmeticScientific .arithScien button {
+    width: 50px;
+    height: 25px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 12px;
+    cursor: pointer;
+    -webkit-transition: 0.8s;
+    transition: 0.8s;
+    margin-left: 14px;
+    background: #0a8fbb;
+  }
+  main .secondDiv .arithmeticScientific .arithScien button:hover {
+    background: white;
+    color: #0a8fbb;
+  }
+  main .secondDiv .arithmeticScientific .arithScien .firstBtn {
+    margin-left: 0px;
+  }
+  main .secondDiv .arithmeticScientific .arithScien #firstBtn, main .secondDiv .arithmeticScientific .arithScien #firsBtn, main .secondDiv .arithmeticScientific .arithScien #firBtn, main .secondDiv .arithmeticScientific .arithScien #fitBtn {
+    margin-left: 0px;
+  }
+  main .secondDiv .arithmeticScientific .arithScien .DEL, main .secondDiv .arithmeticScientific .arithScien .AC, main .secondDiv .arithmeticScientific .arithScien .Ans, main .secondDiv .arithmeticScientific .arithScien .equal {
+    background: yellow;
+    color: black;
+  }
+  main .secondDiv .arithmeticScientific .arithScien .DEL:hover, main .secondDiv .arithmeticScientific .arithScien .AC:hover, main .secondDiv .arithmeticScientific .arithScien .Ans:hover, main .secondDiv .arithmeticScientific .arithScien .equal:hover {
+    color: white;
+    background: #0a8fbb;
+  }
+  .boddy {
+    background: #ffdda1;
+    font-family: 'Catamaran', sans-serif;
+  }
+  .boddy main {
+    width: 100%;
+  }
+  .boddy main form {
+    width: 400px;
+    height: 500px;
+    background: blue;
+    margin: 60px auto;
+    border-radius: 8px;
+    -webkit-box-shadow: 1px 1px 1px 4px rgba(255, 176, 30, 0.127);
+            box-shadow: 1px 1px 1px 4px rgba(255, 176, 30, 0.127);
+  }
+  .boddy main form .singleDiv {
+    width: 100%;
+    height: 60px;
+    background: #5b5bff;
+    border-radius: 5px;
+  }
+  .boddy main form .singleDiv .headerLog {
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    margin: 10px auto;
+    position: relative;
+    top: 5px;
+  }
+  .boddy main form .singleDiv .headerLog i {
+    font-size: 35px;
+    margin: 5px auto auto 10px;
+    color: white;
+  }
+  .boddy main form .inputDiv {
+    width: 350px;
+    height: 180px;
+    margin: 20px auto auto 35px;
+  }
+  .boddy main form .inputDiv .secondInput {
+    margin-top: 15px;
+  }
+  .boddy main form .inputDiv .labelOne, .boddy main form .inputDiv a {
+    font-weight: 500;
+  }
+  .boddy main form .inputDiv .inputOne {
+    width: 300px;
+    padding: 12px;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  .boddy main form .inputDiv .inputOne:focus {
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    border: 1px solid #5b5bff;
+  }
+  .boddy main form .inputDiv p a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+  }
+  .boddy main form .inputDiv p a:hover {
+    color: #5b5bff;
+  }
+  .boddy main form .firstBtn {
+    width: 320px;
+    text-decoration: none;
+    padding: 10px;
+    margin: 30px auto auto 35px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background: #5b5bff;
+    cursor: pointer;
+  }
+  .boddy main form .firstBtn:hover {
+    background: #0365ac;
+  }
+  .boddy main form .firstBtn a {
+    width: 100%;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+  }
+  .boddy main form .paragraph {
+    margin-top: 20px;
+    margin-left: 100px;
+  }
+  .boddy main form .paragraph a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #5b5bff;
+  }
+  .boddy main form span {
+    margin-left: 180px;
+  }
+  .boddy main form .facebookOr {
+    text-decoration: none;
+    margin-top: 20px;
+    margin-left: 30px;
+  }
+  .boddy main form .facebookOr .button {
+    text-decoration: none;
+    width: 160px;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    padding: 11px;
+    font-size: 500;
+    cursor: pointer;
+  }
+  .boddy main form .facebookOr a {
+    width: 160px;
+    text-decoration: none;
+    color: wheat;
+  }
+  .boddy main form .facebookOr #btn {
+    background: #5b5bff;
+    color: white;
+  }
+  .boddy main form .facebookOr #btn:hover {
+    background: #0365ac;
+  }
+  .boddy main form .facebookOr #buton {
+    background: red;
+    color: white;
+  }
+  .boddy main form .facebookOr #buton:hover {
+    background: #0365ac;
+  }
+  header {
+    font-family: 'Catamaran', sans-serif;
+    width: 100%;
+    height: 170px;
+    position: relative;
+  }
+  header .centerDiv {
+    width: 90%;
+    height: 70px;
+    margin: 10px auto;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  header .centerDiv .logoDiv {
+    width: 70px;
+    height: 60px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  header .centerDiv .logoDiv img {
+    width: inherit;
+    height: 60px;
+  }
+  header .centerDiv nav {
+    margin-top: 20px;
+    font-size: 16px;
+  }
+  header .centerDiv nav ul li {
+    display: inline;
+  }
+  header .centerDiv nav ul li a {
+    color: black;
+    text-decoration: none;
+    margin-left: 10px;
+  }
+  header .centerDiv nav ul li a:hover {
+    color: blue;
+  }
+  header .coverDiv {
+    width: 100%;
+    height: 80vh;
+    margin-top: -10px;
+  }
+  header .coverDiv img {
+    width: inherit;
+    height: inherit;
+  }
+  header .containerDiv {
+    width: 100%;
+    height: 80vh;
+    background: rgba(1, 1, 45, 0.631);
+    position: absolute;
+    top: 70px;
+    text-align: center;
+    color: white;
+  }
+  header .containerDiv h1 {
+    font-size: 70px;
+    margin-top: 150px;
+    line-height: 80px;
+  }
+  header .containerDiv p {
+    font-size: 18px;
+  }
+  header .containerDiv button {
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    padding: 8px 20px 8px 20px;
+    margin-left: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  header .containerDiv button:hover {
+    background: #5b5bff;
+  }
+  header .containerDiv button a {
+    text-decoration: none;
+    font-size: 19px;
+    color: black;
+  }
+  header .containerDiv button a:hover {
+    color: white;
+  }
+  section .smallParagraph {
+    text-align: center;
+    width: 100%;
+    height: 30vh;
+    color: black;
+    position: absolute;
+    top: 600px;
+  }
+  section .smallParagraph h1 {
+    margin-top: 40px;
+    font-size: 50px;
+    font-family: 'Catamaran', sans-serif;
+  }
+  section .smallParagraph p {
+    font-family: 'Catamaran', sans-serif;
+    width: 50%;
+    margin-left: 230px;
+  }
+  footer {
+    width: 100%;
+    height: 10vh;
+    background: rgba(214, 214, 247, 0.249);
+    position: absolute;
+    top: 900px;
+    font-family: 'Catamaran', sans-serif;
+  }
+  footer .centerDiv {
+    width: 90%;
+    height: 5vh;
+    margin: 10px auto;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  footer .centerDiv .logoDiv {
+    width: 80px;
+    height: inherit;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  footer .centerDiv nav {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  footer .centerDiv nav ul li {
+    display: inline;
+  }
+  footer .centerDiv nav ul li a {
+    color: black;
+    text-decoration: none;
+    margin-left: 10px;
+  }
+  footer .centerDiv nav ul li a:hover {
+    color: blue;
+  }
+}
+
+@media (max-width: 760px) {
+  main {
+    width: 100%;
+    height: 70vh;
+    position: relative;
+  }
+  main .secondDiv {
+    width: 420px;
+    height: 600px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 40px;
+    background: rgba(0, 0, 108, 0.87);
+    position: relative;
+    -webkit-box-shadow: 1px 1px 2px 3px lightblue;
+            box-shadow: 1px 1px 2px 3px lightblue;
+  }
+  main .secondDiv .mainScreen {
+    width: 75%;
+    height: 100px;
+    background: #019801;
+    position: absolute;
+    top: 30px;
+    left: 50px;
+    border-radius: 7px;
+  }
+  main .secondDiv .mainScreen .operationSense {
+    margin-top: 5px;
+  }
+  main .secondDiv .mainScreen input {
+    width: 95%;
+    height: 45px;
+    margin-left: 8px;
+    border: none;
+    outline: none;
+    background: #019801;
+  }
+  main .secondDiv .mainScreen ::-webkit-input-placeholder {
+    color: black;
+    font-size: 16px;
+  }
+  main .secondDiv .mainScreen :-ms-input-placeholder {
+    color: black;
+    font-size: 16px;
+  }
+  main .secondDiv .mainScreen ::-ms-input-placeholder {
+    color: black;
+    font-size: 16px;
+  }
+  main .secondDiv .mainScreen ::placeholder {
+    color: black;
+    font-size: 16px;
+  }
+  main .secondDiv .powerButton {
+    width: 75%;
+    height: 70px;
+    background: transparent;
+    position: absolute;
+    top: 150px;
+    left: 50px;
+    border-radius: 7px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  main .secondDiv .powerButton button {
+    width: 40px;
+    height: 25px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 12px;
+    cursor: pointer;
+    -webkit-transition: 0.8s;
+    transition: 0.8s;
+    background: #0a8fbb;
+  }
+  main .secondDiv .powerButton button:hover {
+    background: white;
+    color: #0a8fbb;
+  }
+  main .secondDiv .powerButton .replayBtn {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+  }
+  main .secondDiv .arithmeticScientific {
+    width: 80%;
+    height: 340px;
+    background: transparent;
+    position: absolute;
+    top: 230px;
+    left: 45px;
+    border-radius: 7px;
+  }
+  main .secondDiv .arithmeticScientific .arithScien {
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+  }
+  main .secondDiv .arithmeticScientific .arithScien button {
+    width: 50px;
+    height: 25px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 12px;
+    cursor: pointer;
+    -webkit-transition: 0.8s;
+    transition: 0.8s;
+    margin-left: 14px;
+    background: #0a8fbb;
+  }
+  main .secondDiv .arithmeticScientific .arithScien button:hover {
+    background: white;
+    color: #0a8fbb;
+  }
+  main .secondDiv .arithmeticScientific .arithScien .firstBtn {
+    margin-left: 0px;
+  }
+  main .secondDiv .arithmeticScientific .arithScien #firstBtn, main .secondDiv .arithmeticScientific .arithScien #firsBtn, main .secondDiv .arithmeticScientific .arithScien #firBtn, main .secondDiv .arithmeticScientific .arithScien #fitBtn {
+    margin-left: 0px;
+  }
+  main .secondDiv .arithmeticScientific .arithScien .DEL, main .secondDiv .arithmeticScientific .arithScien .AC, main .secondDiv .arithmeticScientific .arithScien .Ans, main .secondDiv .arithmeticScientific .arithScien .equal {
+    background: yellow;
+    color: black;
+  }
+  main .secondDiv .arithmeticScientific .arithScien .DEL:hover, main .secondDiv .arithmeticScientific .arithScien .AC:hover, main .secondDiv .arithmeticScientific .arithScien .Ans:hover, main .secondDiv .arithmeticScientific .arithScien .equal:hover {
+    color: white;
+    background: #0a8fbb;
+  }
+  .boddy {
+    background: #ffdda1;
+    font-family: 'Catamaran', sans-serif;
+  }
+  .boddy main {
+    width: 60%;
+    background: red;
+  }
+  .boddy main form {
+    width: 170%;
+    height: 80vh;
+    background: white;
+    margin: 0px;
+    border-radius: 8px;
+    -webkit-box-shadow: 1px 1px 1px 4px rgba(255, 176, 30, 0.127);
+            box-shadow: 1px 1px 1px 4px rgba(255, 176, 30, 0.127);
+  }
+  .boddy main form .singleDiv {
+    width: 100%;
+    height: 60px;
+    background: #5b5bff;
+    border-radius: 5px;
+  }
+  .boddy main form .singleDiv .headerLog {
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    margin: 10px auto;
+    position: relative;
+    top: 5px;
+  }
+  .boddy main form .singleDiv .headerLog i {
+    font-size: 35px;
+    margin: 5px auto auto 10px;
+    color: white;
+  }
+  .boddy main form .inputDiv {
+    width: 50%;
+    height: 180px;
+    margin: 20px auto auto 35px;
+  }
+  .boddy main form .inputDiv .secondInput {
+    margin-top: 15px;
+  }
+  .boddy main form .inputDiv .labelOne, .boddy main form .inputDiv a {
+    font-weight: 500;
+  }
+  .boddy main form .inputDiv .inputOne {
+    width: 100%;
+    padding: 12px;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  .boddy main form .inputDiv .inputOne:focus {
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    border: 1px solid #5b5bff;
+  }
+  .boddy main form .inputDiv p a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+  }
+  .boddy main form .inputDiv p a:hover {
+    color: #5b5bff;
+  }
+  .boddy main form .firstBtn {
+    width: 320px;
+    text-decoration: none;
+    padding: 10px;
+    margin: 30px auto auto 35px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background: #5b5bff;
+    cursor: pointer;
+  }
+  .boddy main form .firstBtn:hover {
+    background: #0365ac;
+  }
+  .boddy main form .firstBtn a {
+    width: 100%;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+  }
+  .boddy main form .paragraph {
+    margin-top: 20px;
+    margin-left: 100px;
+  }
+  .boddy main form .paragraph a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #5b5bff;
+  }
+  .boddy main form span {
+    margin-left: 180px;
+  }
+  .boddy main form .facebookOr {
+    text-decoration: none;
+    margin-top: 20px;
+    margin-left: 30px;
+  }
+  .boddy main form .facebookOr .button {
+    text-decoration: none;
+    width: 160px;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    padding: 11px;
+    font-size: 500;
+    cursor: pointer;
+  }
+  .boddy main form .facebookOr a {
+    width: 160px;
+    text-decoration: none;
+    color: wheat;
+  }
+  .boddy main form .facebookOr #btn {
+    background: #5b5bff;
+    color: white;
+  }
+  .boddy main form .facebookOr #btn:hover {
+    background: #0365ac;
+  }
+  .boddy main form .facebookOr #buton {
+    background: red;
+    color: white;
+  }
+  .boddy main form .facebookOr #buton:hover {
+    background: #0365ac;
+  }
+  header {
+    font-family: 'Catamaran', sans-serif;
+    width: 100%;
+    height: 170px;
+    position: relative;
+  }
+  header .centerDiv {
+    width: 90%;
+    height: 70px;
+    margin: 10px auto;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  header .centerDiv .logoDiv {
+    width: 70px;
+    height: 60px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  header .centerDiv .logoDiv img {
+    width: inherit;
+    height: 60px;
+  }
+  header .centerDiv nav {
+    margin-top: 20px;
+    font-size: 16px;
+  }
+  header .centerDiv nav ul li {
+    display: inline;
+  }
+  header .centerDiv nav ul li a {
+    color: black;
+    text-decoration: none;
+    margin-left: 10px;
+  }
+  header .centerDiv nav ul li a:hover {
+    color: blue;
+  }
+  header .coverDiv {
+    width: 100%;
+    height: 80vh;
+    margin-top: -10px;
+  }
+  header .coverDiv img {
+    width: inherit;
+    height: inherit;
+  }
+  header .containerDiv {
+    width: 100%;
+    height: 80vh;
+    background: rgba(1, 1, 45, 0.631);
+    position: absolute;
+    top: 70px;
+    text-align: center;
+    color: white;
+  }
+  header .containerDiv h1 {
+    font-size: 50px;
+    margin-top: 150px;
+    line-height: 80px;
+  }
+  header .containerDiv p {
+    font-size: 17px;
+  }
+  header .containerDiv button {
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    padding: 8px 20px 8px 20px;
+    margin-left: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  header .containerDiv button:hover {
+    background: #5b5bff;
+  }
+  header .containerDiv button a {
+    text-decoration: none;
+    font-size: 19px;
+    color: black;
+  }
+  header .containerDiv button a:hover {
+    color: white;
+  }
+  section .smallParagraph {
+    text-align: center;
+    width: 100%;
+    height: 30vh;
+    color: black;
+    position: absolute;
+    top: 600px;
+  }
+  section .smallParagraph h1 {
+    margin-top: 40px;
+    font-size: 50px;
+    font-family: 'Catamaran', sans-serif;
+  }
+  section .smallParagraph p {
+    font-family: 'Catamaran', sans-serif;
+    width: 50%;
+    margin-left: 170px;
+  }
+  footer {
+    width: 100%;
+    height: 10vh;
+    background: rgba(214, 214, 247, 0.249);
+    position: absolute;
+    top: 900px;
+    font-family: 'Catamaran', sans-serif;
+  }
+  footer .centerDiv {
+    width: 90%;
+    height: 5vh;
+    margin: 10px auto;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  footer .centerDiv .logoDiv {
+    width: 80px;
+    height: inherit;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  footer .centerDiv nav {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  footer .centerDiv nav ul li {
+    display: inline;
+  }
+  footer .centerDiv nav ul li a {
+    color: black;
+    text-decoration: none;
+    margin-left: 10px;
+  }
+  footer .centerDiv nav ul li a:hover {
+    color: blue;
+  }
+}
+
+@media (max-width: 350px) {
+  main {
+    width: 100%;
+    height: 70vh;
+    position: relative;
+  }
+  main .secondDiv {
+    width: 100%;
+    height: 600px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 40px;
+    background: rgba(0, 0, 108, 0.87);
+    position: relative;
+    -webkit-box-shadow: 1px 1px 2px 3px lightblue;
+            box-shadow: 1px 1px 2px 3px lightblue;
+  }
+  main .secondDiv .mainScreen {
+    width: 90%;
+    height: 100px;
+    background: #019801;
+    position: absolute;
+    top: 30px;
+    left: 15px;
+    border-radius: 7px;
+  }
+  main .secondDiv .mainScreen .operationSense {
+    margin-top: 5px;
+  }
+  main .secondDiv .mainScreen input {
+    width: 95%;
+    height: 45px;
+    margin-left: 8px;
+    border: none;
+    outline: none;
+    background: #019801;
+  }
+  main .secondDiv .mainScreen ::-webkit-input-placeholder {
+    color: black;
+    font-size: 16px;
+  }
+  main .secondDiv .mainScreen :-ms-input-placeholder {
+    color: black;
+    font-size: 16px;
+  }
+  main .secondDiv .mainScreen ::-ms-input-placeholder {
+    color: black;
+    font-size: 16px;
+  }
+  main .secondDiv .mainScreen ::placeholder {
+    color: black;
+    font-size: 16px;
+  }
+  main .secondDiv .powerButton {
+    width: 75%;
+    height: 70px;
+    background: transparent;
+    position: absolute;
+    top: 150px;
+    left: 30px;
+    border-radius: 7px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  main .secondDiv .powerButton button {
+    width: 40px;
+    height: 25px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 12px;
+    cursor: pointer;
+    -webkit-transition: 0.8s;
+    transition: 0.8s;
+    background: #0a8fbb;
+  }
+  main .secondDiv .powerButton button:hover {
+    background: white;
+    color: #0a8fbb;
+  }
+  main .secondDiv .powerButton .replayBtn {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+  }
+  main .secondDiv .arithmeticScientific {
+    width: 80%;
+    height: 340px;
+    background: transparent;
+    position: absolute;
+    top: 230px;
+    left: 25px;
+    border-radius: 7px;
+  }
+  main .secondDiv .arithmeticScientific .arithScien {
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+  }
+  main .secondDiv .arithmeticScientific .arithScien button {
+    width: 30px;
+    height: 25px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 12px;
+    cursor: pointer;
+    -webkit-transition: 0.8s;
+    transition: 0.8s;
+    background: #0a8fbb;
+  }
+  main .secondDiv .arithmeticScientific .arithScien button:hover {
+    background: white;
+    color: #0a8fbb;
+  }
+  main .secondDiv .arithmeticScientific .arithScien .firstBtn {
+    margin-left: 0px;
+  }
+  main .secondDiv .arithmeticScientific .arithScien #firstBtn, main .secondDiv .arithmeticScientific .arithScien #firsBtn, main .secondDiv .arithmeticScientific .arithScien #firBtn, main .secondDiv .arithmeticScientific .arithScien #fitBtn {
+    margin-left: 0px;
+  }
+  main .secondDiv .arithmeticScientific .arithScien .DEL, main .secondDiv .arithmeticScientific .arithScien .AC, main .secondDiv .arithmeticScientific .arithScien .Ans, main .secondDiv .arithmeticScientific .arithScien .equal {
+    background: yellow;
+    color: black;
+  }
+  main .secondDiv .arithmeticScientific .arithScien .DEL:hover, main .secondDiv .arithmeticScientific .arithScien .AC:hover, main .secondDiv .arithmeticScientific .arithScien .Ans:hover, main .secondDiv .arithmeticScientific .arithScien .equal:hover {
+    color: white;
+    background: #0a8fbb;
+  }
+  .boddy {
+    background: #ffdda1;
+    font-family: 'Catamaran', sans-serif;
+  }
+  .boddy main {
+    width: 100%;
+    height: 100vh;
+  }
+  .boddy main form {
+    width: 100%;
+    height: 100vh;
+    background: white;
+    border-radius: 8px;
+    -webkit-box-shadow: 1px 1px 1px 4px rgba(255, 176, 30, 0.127);
+            box-shadow: 1px 1px 1px 4px rgba(255, 176, 30, 0.127);
+  }
+  .boddy main form .singleDiv {
+    width: 100%;
+    height: 60px;
+    background: #5b5bff;
+    border-radius: 5px;
+  }
+  .boddy main form .singleDiv .headerLog {
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    margin: 10px auto;
+    position: relative;
+    top: 5px;
+  }
+  .boddy main form .singleDiv .headerLog i {
+    font-size: 35px;
+    margin: 5px auto auto 10px;
+    color: white;
+  }
+  .boddy main form .inputDiv {
+    width: 100%;
+    height: 180px;
+    margin: 20px auto auto 35px;
+  }
+  .boddy main form .inputDiv .secondInput {
+    margin-top: 15px;
+  }
+  .boddy main form .inputDiv .labelOne, .boddy main form .inputDiv a {
+    font-weight: 500;
+  }
+  .boddy main form .inputDiv .inputOne {
+    width: 100%;
+    padding: 12px;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  .boddy main form .inputDiv .inputOne:focus {
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    border: 1px solid #5b5bff;
+  }
+  .boddy main form .inputDiv p a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+  }
+  .boddy main form .inputDiv p a:hover {
+    color: #5b5bff;
+  }
+  .boddy main form .firstBtn {
+    width: 100%;
+    text-decoration: none;
+    padding: 10px;
+    margin: 30px auto auto 35px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background: #5b5bff;
+    cursor: pointer;
+  }
+  .boddy main form .firstBtn:hover {
+    background: #0365ac;
+  }
+  .boddy main form .firstBtn a {
+    width: 100%;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+  }
+  .boddy main form .paragraph {
+    margin-top: 20px;
+    margin-left: 100px;
+  }
+  .boddy main form .paragraph a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #5b5bff;
+  }
+  .boddy main form span {
+    margin-left: 180px;
+  }
+  .boddy main form .facebookOr {
+    text-decoration: none;
+    margin-top: 20px;
+    margin-left: 30px;
+  }
+  .boddy main form .facebookOr .button {
+    text-decoration: none;
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    padding: 11px;
+    font-size: 500;
+    cursor: pointer;
+  }
+  .boddy main form .facebookOr a {
+    width: 160px;
+    text-decoration: none;
+    color: wheat;
+  }
+  .boddy main form .facebookOr #btn {
+    background: #5b5bff;
+    color: white;
+  }
+  .boddy main form .facebookOr #btn:hover {
+    background: #0365ac;
+  }
+  .boddy main form .facebookOr #buton {
+    background: red;
+    color: white;
+  }
+  .boddy main form .facebookOr #buton:hover {
+    background: #0365ac;
+  }
+  header {
+    font-family: 'Catamaran', sans-serif;
+    width: 100%;
+    height: 170px;
+    position: relative;
+  }
+  header .centerDiv {
+    width: 90%;
+    height: 70px;
+    margin: 10px auto;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  header .centerDiv .logoDiv {
+    width: 70px;
+    height: 60px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  header .centerDiv .logoDiv img {
+    width: inherit;
+    height: 60px;
+  }
+  header .centerDiv nav {
+    display: none;
+    margin-top: 20px;
+    font-size: 16px;
+  }
+  header .centerDiv nav ul li {
+    display: inline;
+  }
+  header .centerDiv nav ul li a {
+    color: black;
+    text-decoration: none;
+    margin-left: 10px;
+  }
+  header .centerDiv nav ul li a:hover {
+    color: blue;
+  }
+  header .coverDiv {
+    width: 100%;
+    height: 80vh;
+    margin-top: -10px;
+  }
+  header .coverDiv img {
+    width: inherit;
+    height: inherit;
+  }
+  header .containerDiv {
+    width: 100%;
+    height: 80vh;
+    background: rgba(1, 1, 45, 0.631);
+    position: absolute;
+    top: 70px;
+    text-align: center;
+    color: white;
+  }
+  header .containerDiv h1 {
+    font-size: 20px;
+    margin-top: 150px;
+    line-height: 80px;
+  }
+  header .containerDiv p {
+    font-size: 17px;
+  }
+  header .containerDiv button {
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    padding: 8px 20px 8px 20px;
+    margin-left: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  header .containerDiv button:hover {
+    background: #5b5bff;
+  }
+  header .containerDiv button a {
+    text-decoration: none;
+    font-size: 19px;
+    color: black;
+  }
+  header .containerDiv button a:hover {
+    color: white;
+  }
+  section .smallParagraph {
+    text-align: center;
+    width: 100%;
+    height: 30vh;
+    color: black;
+    position: absolute;
+    top: 600px;
+  }
+  section .smallParagraph h1 {
+    margin-top: 40px;
+    font-size: 30px;
+    font-family: 'Catamaran', sans-serif;
+  }
+  section .smallParagraph p {
+    font-family: 'Catamaran', sans-serif;
+    width: 100%;
+    font-size: 13px;
+    margin-left: 0px;
+  }
+  footer {
+    width: 100%;
+    height: 10vh;
+    background: rgba(214, 214, 247, 0.249);
+    position: absolute;
+    top: 900px;
+    font-family: 'Catamaran', sans-serif;
+  }
+  footer .centerDiv {
+    width: 90%;
+    height: 5vh;
+    margin: 10px auto auto -50px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  footer .centerDiv .logoDiv {
+    width: 80px;
+    height: inherit;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  footer .centerDiv nav {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  footer .centerDiv nav ul li {
+    display: inline;
+  }
+  footer .centerDiv nav ul li a {
+    color: black;
+    text-decoration: none;
+    margin-left: 5px;
+  }
+  footer .centerDiv nav ul li a:hover {
+    color: blue;
+  }
 }
 /*# sourceMappingURL=style.css.map */
