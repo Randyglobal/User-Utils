@@ -3,8 +3,8 @@
  */
 const operationScreen = document.querySelector('input.operationScreen');
 const answerScreen = document.querySelector('input.answerScreen');
-// operationScreen.readOnly = true
-// answerScreen.readOnly = true;
+operationScreen.readOnly = true
+answerScreen.readOnly = true;
 
 //Then you call the digits
 const digitalOps = document.querySelectorAll('button.digits');
@@ -24,10 +24,7 @@ const randy = window.document.getElementById('result');
 
 
 //click on menu bar
-let icon = document.getElementById('icon');
-let nav = document.getElementById('nav');
 
-nav.style.display = 'none'
 //operation on digits
 //i tried to call a function here using .forEach forgeting that i did not assign the value as a 
 // function. I can just add the event listener directly.
@@ -118,14 +115,6 @@ scienceOps.forEach(operation => {
 // }
 // })
 
-icon.addEventListener('click', event =>{
-    event.preventDefault();
-    if(nav.style.display == 'none'){
-        nav.style.display = 'block'
-    }else{
-        nav.style.display = 'none'
-    }
 
-})
   
 
