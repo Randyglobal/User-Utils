@@ -61,6 +61,7 @@
                         }
 
                         h6 {
+                            font-size: 17px;
                             font-weight: 200;
                         }
                     }
@@ -76,10 +77,100 @@
                         background-repeat: no-repeat;
                         background-size: cover;
                         top: 40px;
-                        left: 250px;
+                        left: 290px;
                     }
                 }
             }
+
+            .months{
+                width: 90%;
+                height: 30px;
+                // background: green;
+                margin: 10px auto auto 30px;
+
+                .circle{
+                    display: flex;
+                ul{
+                    li{
+                        list-style: none;
+                    }
+                }
+
+                .leftRight{
+                    width: 40px;
+                    height: 20px;
+                    background: rgb(255, 0, 89);
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                    border-radius: 8px;
+                    margin-left: 10px;
+                    margin-top: 4px;
+
+                    i{
+                        color: white;
+                        font-size: 13px;
+                    }
+                }
+                .currentMonth{
+                    width: 70px;
+                    height: 25px;
+                    background: rgba(198, 198, 198, 0.324);
+                    border-radius: 8px;
+                    display: flex;
+                    margin-left: 230px;
+                    margin-top: 5px;
+                    align-items: center;
+
+                    i{
+                        font-size: 15px;
+                        margin-left: 5px;
+                    }
+
+                    ul{
+                        li{
+                            margin-top: 4px;
+                            margin-left: 3px;
+                        }
+                    }
+                }
+
+                .currentMonths{
+                    
+                    margin-left: 200px;
+                    li{
+                        margin-left: 5px;
+                     display: inline;
+                }
+                .active{
+                    font-weight: 600;
+                }
+            }}
+        }
+        .calendar{
+            background: 90%;
+            height: 80px;
+            padding-top: 5px;
+            margin: 20px auto auto 10px;
+            border-radius: 5px;
+            box-shadow: 1px 1px 3px rgba(155, 155, 155, 0.438);
+        }
+        .calendar ul{
+            width: 100%;
+            display: flex;
+            list-style: none;
+            flex-wrap: wrap;
+            text-align: center;
+            margin-top: 20px;
+            line-height: 10px;
+
+            li{
+                width: calc(100% / 7);
+            }
+            .active{
+                color: rgb(255, 0, 89);
+            }
+        }
 
             .rightSide {
                 width: 40%;

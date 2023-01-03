@@ -34,6 +34,8 @@
 @import './forgot';
 @import './password';
 @import './index';
+
+
 @media (min-width: 1200px) {
     // @import './media/large';
     // @import './login/loginL';
@@ -41,8 +43,8 @@
 }   
 @media (max-width: 992px) {
     // @import './media/normal';
-    // @import './login/loginN';
-    @import './index/indexN';
+    // @import './index/indexN';
+    @import './login/loginN';
 }
 @media (max-width: 765px) {
     // @import './media/tablet';
@@ -51,9 +53,11 @@
 }
 @media (max-width: 576px) {
     // @import './media/mobile';
-    // @import './login/loginM';
+//    @import './login/loginM';  
     @import './index/indexM';
 }
+
+
 
 
  

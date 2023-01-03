@@ -235,6 +235,7 @@ main .secondDiv .arithmeticScientific .arithScien .DEL:hover, main .secondDiv .a
 }
 
 .body .groupConatainer .groupRight .leftSide .topDiv .left h6 {
+  font-size: 17px;
   font-weight: 200;
 }
 
@@ -247,7 +248,115 @@ main .secondDiv .arithmeticScientific .arithScien .DEL:hover, main .secondDiv .a
   background-repeat: no-repeat;
   background-size: cover;
   top: 40px;
-  left: 250px;
+  left: 290px;
+}
+
+.body .groupConatainer .groupRight .months {
+  width: 90%;
+  height: 30px;
+  margin: 10px auto auto 30px;
+}
+
+.body .groupConatainer .groupRight .months .circle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.body .groupConatainer .groupRight .months .circle ul li {
+  list-style: none;
+}
+
+.body .groupConatainer .groupRight .months .circle .leftRight {
+  width: 40px;
+  height: 20px;
+  background: #ff0059;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 8px;
+  margin-left: 10px;
+  margin-top: 4px;
+}
+
+.body .groupConatainer .groupRight .months .circle .leftRight i {
+  color: white;
+  font-size: 13px;
+}
+
+.body .groupConatainer .groupRight .months .circle .currentMonth {
+  width: 70px;
+  height: 25px;
+  background: rgba(198, 198, 198, 0.324);
+  border-radius: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 230px;
+  margin-top: 5px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.body .groupConatainer .groupRight .months .circle .currentMonth i {
+  font-size: 15px;
+  margin-left: 5px;
+}
+
+.body .groupConatainer .groupRight .months .circle .currentMonth ul li {
+  margin-top: 4px;
+  margin-left: 3px;
+}
+
+.body .groupConatainer .groupRight .months .circle .currentMonths {
+  margin-left: 200px;
+}
+
+.body .groupConatainer .groupRight .months .circle .currentMonths li {
+  margin-left: 5px;
+  display: inline;
+}
+
+.body .groupConatainer .groupRight .months .circle .currentMonths .active {
+  font-weight: 600;
+}
+
+.body .groupConatainer .groupRight .calendar {
+  background: 90%;
+  height: 80px;
+  padding-top: 5px;
+  margin: 20px auto auto 10px;
+  border-radius: 5px;
+  -webkit-box-shadow: 1px 1px 3px rgba(155, 155, 155, 0.438);
+          box-shadow: 1px 1px 3px rgba(155, 155, 155, 0.438);
+}
+
+.body .groupConatainer .groupRight .calendar ul {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  text-align: center;
+  margin-top: 20px;
+  line-height: 10px;
+}
+
+.body .groupConatainer .groupRight .calendar ul li {
+  width: calc(100% / 7);
+}
+
+.body .groupConatainer .groupRight .calendar ul .active {
+  color: #ff0059;
 }
 
 .body .groupConatainer .groupRight .rightSide {
@@ -357,7 +466,7 @@ main .secondDiv .arithmeticScientific .arithScien .DEL:hover, main .secondDiv .a
 .body main form {
   width: 400px;
   height: 500px;
-  background: white;
+  background: yellow;
   margin: 60px auto;
   border-radius: 8px;
   -webkit-box-shadow: 1px 1px 1px 4px rgba(39, 38, 38, 0.127);
@@ -1176,157 +1285,138 @@ footer .centerDiv nav ul li a:hover {
 }
 
 @media (max-width: 992px) {
-  header {
+  .boddy {
+    background: #ffdda1;
     font-family: 'Catamaran', sans-serif;
-    width: 100%;
-    height: 170px;
-    position: relative;
   }
-  header .centerDiv {
-    width: 90%;
-    height: 70px;
+  .boddy main {
+    width: 100%;
+  }
+  .boddy main form {
+    width: 400px;
+    height: 500px;
+    background: blue;
+    margin: 60px auto;
+    border-radius: 8px;
+    -webkit-box-shadow: 1px 1px 1px 4px rgba(255, 176, 30, 0.127);
+            box-shadow: 1px 1px 1px 4px rgba(255, 176, 30, 0.127);
+  }
+  .boddy main form .singleDiv {
+    width: 100%;
+    height: 60px;
+    background: #5b5bff;
+    border-radius: 5px;
+  }
+  .boddy main form .singleDiv .headerLog {
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
     margin: 10px auto;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    position: relative;
+    top: 5px;
   }
-  header .centerDiv .logoDiv {
-    width: 70px;
-    height: 60px;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  header .centerDiv .logoDiv img {
-    width: inherit;
-    height: 60px;
-  }
-  header .centerDiv .icon {
-    display: none;
-  }
-  header .centerDiv nav {
-    margin-top: 20px;
-    font-size: 16px;
-  }
-  header .centerDiv nav ul li {
-    display: inline;
-  }
-  header .centerDiv nav ul li a {
-    color: black;
-    text-decoration: none;
-    margin-left: 10px;
-  }
-  header .centerDiv nav ul li a:hover {
-    color: blue;
-  }
-  header .coverDiv {
-    width: 100%;
-    height: 60vh;
-    margin-top: -10px;
-    background-image: url(/Images/Background-pic.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  header .coverDiv img {
-    width: inherit;
-    height: inherit;
-  }
-  header .containerDiv {
-    width: 100%;
-    height: 60vh;
-    background: rgba(1, 1, 45, 0.631);
-    position: absolute;
-    top: 70px;
-    text-align: center;
+  .boddy main form .singleDiv .headerLog i {
+    font-size: 35px;
+    margin: 5px auto auto 10px;
     color: white;
   }
-  header .containerDiv h1 {
-    font-size: 70px;
-    margin-top: 200px;
-    line-height: 80px;
+  .boddy main form .inputDiv {
+    width: 350px;
+    height: 180px;
+    margin: 20px auto auto 35px;
   }
-  header .containerDiv p {
-    font-size: 18px;
+  .boddy main form .inputDiv .secondInput {
+    margin-top: 15px;
   }
-  header .containerDiv button {
-    margin-top: 20px;
-    border: none;
+  .boddy main form .inputDiv .labelOne, .boddy main form .inputDiv a {
+    font-weight: 500;
+  }
+  .boddy main form .inputDiv .inputOne {
+    width: 300px;
+    padding: 12px;
     outline: none;
-    padding: 8px 20px 8px 20px;
-    margin-left: 10px;
-    border-radius: 10px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  .boddy main form .inputDiv .inputOne:focus {
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    border: 1px solid #5b5bff;
+  }
+  .boddy main form .inputDiv p a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+  }
+  .boddy main form .inputDiv p a:hover {
+    color: #5b5bff;
+  }
+  .boddy main form .firstBtn {
+    width: 320px;
+    text-decoration: none;
+    padding: 10px;
+    margin: 30px auto auto 35px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background: #5b5bff;
     cursor: pointer;
   }
-  header .containerDiv button:hover {
-    background: #5b5bff;
+  .boddy main form .firstBtn:hover {
+    background: #0365ac;
   }
-  header .containerDiv button a {
+  .boddy main form .firstBtn a {
+    width: 100%;
+    padding: 10px;
     text-decoration: none;
-    font-size: 19px;
-    color: black;
-  }
-  header .containerDiv button a:hover {
     color: white;
   }
-  section .smallParagraph {
-    text-align: center;
-    width: 100%;
-    height: 30vh;
-    color: black;
-    position: absolute;
-    top: 600px;
+  .boddy main form .paragraph {
+    margin-top: 20px;
+    margin-left: 100px;
   }
-  section .smallParagraph h1 {
-    margin-top: 210px;
-    font-size: 50px;
-    font-family: 'Catamaran', sans-serif;
-  }
-  section .smallParagraph p {
-    font-family: 'Catamaran', sans-serif;
-    width: 50%;
-    margin-left: 190px;
-  }
-  footer {
-    width: 100%;
-    height: 9vh;
-    background: rgba(214, 214, 247, 0.249);
-    position: absolute;
-    top: 1070px;
-    font-family: 'Catamaran', sans-serif;
-  }
-  footer .centerDiv {
-    width: 90%;
-    height: 5vh;
-    margin: 10px auto;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-  footer .centerDiv .logoDiv {
-    width: 80px;
-    height: inherit;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  footer .centerDiv nav {
-    margin-top: 10px;
-    font-size: 16px;
-  }
-  footer .centerDiv nav ul li {
-    display: inline;
-  }
-  footer .centerDiv nav ul li a {
-    color: black;
+  .boddy main form .paragraph a {
     text-decoration: none;
-    margin-left: 10px;
+    font-weight: 600;
+    color: #5b5bff;
   }
-  footer .centerDiv nav ul li a:hover {
-    color: blue;
+  .boddy main form span {
+    margin-left: 180px;
+  }
+  .boddy main form .facebookOr {
+    text-decoration: none;
+    margin-top: 20px;
+    margin-left: 30px;
+  }
+  .boddy main form .facebookOr .button {
+    text-decoration: none;
+    width: 160px;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    padding: 11px;
+    font-size: 500;
+    cursor: pointer;
+  }
+  .boddy main form .facebookOr a {
+    width: 160px;
+    text-decoration: none;
+    color: wheat;
+  }
+  .boddy main form .facebookOr #btn {
+    background: #5b5bff;
+    color: white;
+  }
+  .boddy main form .facebookOr #btn:hover {
+    background: #0365ac;
+  }
+  .boddy main form .facebookOr #buton {
+    background: red;
+    color: white;
+  }
+  .boddy main form .facebookOr #buton:hover {
+    background: #0365ac;
   }
 }
 
