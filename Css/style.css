@@ -167,12 +167,12 @@ main .secondDiv .arithmeticScientific .arithScien .DEL:hover, main .secondDiv .a
 }
 
 .body .groupConatainer {
-  -webkit-box-shadow: 1px 1px 1px 4px rgba(39, 38, 38, 0.127);
-          box-shadow: 1px 1px 1px 4px rgba(39, 38, 38, 0.127);
+  -webkit-box-shadow: 1px 1px 2px 1px rgba(116, 116, 116, 0.464);
+          box-shadow: 1px 1px 2px 1px rgba(116, 116, 116, 0.464);
   width: 1025px;
   height: 90vh;
   margin: 30px auto;
-  border-radius: 20px;
+  border-radius: 7px;
   background: white;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -464,13 +464,12 @@ main .secondDiv .arithmeticScientific .arithScien .DEL:hover, main .secondDiv .a
 }
 
 .body main form {
-  width: 400px;
-  height: 500px;
-  background: yellow;
-  margin: 60px auto;
-  border-radius: 8px;
-  -webkit-box-shadow: 1px 1px 1px 4px rgba(39, 38, 38, 0.127);
-          box-shadow: 1px 1px 1px 4px rgba(39, 38, 38, 0.127);
+  width: 450px;
+  height: 580px;
+  margin: 30px auto;
+  border-radius: 5px;
+  -webkit-box-shadow: 1px 1px 2px 1px rgba(116, 116, 116, 0.464);
+          box-shadow: 1px 1px 2px 1px rgba(116, 116, 116, 0.464);
 }
 
 .body main form .singleDiv {
@@ -478,6 +477,8 @@ main .secondDiv .arithmeticScientific .arithScien .DEL:hover, main .secondDiv .a
   height: 60px;
   background: #5b5bff;
   border-radius: 5px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
 }
 
 .body main form .singleDiv .headerLog {
@@ -498,16 +499,24 @@ main .secondDiv .arithmeticScientific .arithScien .DEL:hover, main .secondDiv .a
 .body main form .inputDiv {
   width: 350px;
   height: 180px;
-  margin: 20px auto auto 35px;
+  margin: 20px auto auto 40px;
   position: relative;
 }
 
 .body main form .inputDiv .icon {
   height: 10px;
-  left: 300px;
+  left: 360px;
   top: 120px;
   cursor: pointer;
   position: absolute;
+  z-index: 2;
+}
+
+.body main form .inputDiv #eyeClosed {
+  position: absolute;
+  top: 0px;
+  left: -1px;
+  background: white;
 }
 
 .body main form .inputDiv .secondInput {
@@ -519,7 +528,7 @@ main .secondDiv .arithmeticScientific .arithScien .DEL:hover, main .secondDiv .a
 }
 
 .body main form .inputDiv .inputOne {
-  width: 300px;
+  width: 330px;
   padding: 10px;
   outline: none;
   border: 1px solid gray;
@@ -544,10 +553,10 @@ main .secondDiv .arithmeticScientific .arithScien .DEL:hover, main .secondDiv .a
 }
 
 .body main form .firstBtn {
-  width: 320px;
+  width: 350px;
   text-decoration: none;
-  padding: 10px;
-  margin: 30px auto auto 35px;
+  padding: 12px;
+  margin: 40px auto auto 40px;
   border-radius: 5px;
   outline: none;
   border: none;
@@ -568,7 +577,7 @@ main .secondDiv .arithmeticScientific .arithScien .DEL:hover, main .secondDiv .a
 
 .body main form .paragraph {
   margin-top: 20px;
-  margin-left: 100px;
+  margin-left: 120px;
 }
 
 .body main form .paragraph a {
@@ -578,18 +587,35 @@ main .secondDiv .arithmeticScientific .arithScien .DEL:hover, main .secondDiv .a
 }
 
 .body main form span {
-  margin-left: 180px;
+  margin-left: 200px;
 }
 
 .body main form .facebookOr {
   text-decoration: none;
-  margin-top: 20px;
-  margin-left: 30px;
+  margin-top: 50px;
+  margin-left: 40px;
+}
+
+.body main form .facebookOr i {
+  font-size: 17px;
+  color: white;
+}
+
+.body main form .facebookOr .fa-facebook-f {
+  position: absolute;
+  left: 34rem;
+  top: 29.5rem;
+}
+
+.body main form .facebookOr .fa-google {
+  position: absolute;
+  right: 39.5rem;
+  top: 29.5rem;
 }
 
 .body main form .facebookOr .button {
   text-decoration: none;
-  width: 160px;
+  width: 170px;
   outline: none;
   border: none;
   border-radius: 6px;
@@ -601,7 +627,8 @@ main .secondDiv .arithmeticScientific .arithScien .DEL:hover, main .secondDiv .a
 .body main form .facebookOr a {
   width: 160px;
   text-decoration: none;
-  color: wheat;
+  color: white;
+  margin-left: 24px;
 }
 
 .body main form .facebookOr #btn {
@@ -614,7 +641,7 @@ main .secondDiv .arithmeticScientific .arithScien .DEL:hover, main .secondDiv .a
 }
 
 .body main form .facebookOr #buton {
-  background: red;
+  background: #5b5bff;
   color: white;
 }
 
@@ -627,13 +654,13 @@ main .secondDiv .arithmeticScientific .arithScien .DEL:hover, main .secondDiv .a
 }
 
 .mainContext .signUp form {
-  width: 420px;
-  height: 530px;
-  margin: 40px auto;
+  width: 480px;
+  height: 600px;
+  margin: 20px auto;
   border-radius: 8px;
   background: white;
-  -webkit-box-shadow: 1px 1px 1px 4px rgba(255, 176, 30, 0.127);
-          box-shadow: 1px 1px 1px 4px rgba(255, 176, 30, 0.127);
+  -webkit-box-shadow: 1px 1px 2px 1px rgba(116, 116, 116, 0.464);
+          box-shadow: 1px 1px 2px 1px rgba(116, 116, 116, 0.464);
 }
 
 .mainContext .signUp form .formLogo {
@@ -647,16 +674,6 @@ main .secondDiv .arithmeticScientific .arithScien .DEL:hover, main .secondDiv .a
   margin: 10px auto;
   position: relative;
   background: transparent;
-}
-
-.mainContext .signUp form .formLogo img {
-  top: 20px;
-  left: 10px;
-  width: 50px;
-  height: 30px;
-  position: inherit;
-  -webkit-filter: blur(1px);
-          filter: blur(1px);
 }
 
 .mainContext .signUp form .formLogo h3 {
@@ -693,15 +710,15 @@ main .secondDiv .arithmeticScientific .arithScien .DEL:hover, main .secondDiv .a
           justify-content: space-between;
   width: 380px;
   height: 40px;
-  margin-left: 20px;
+  margin: 5px auto;
 }
 
 .mainContext .signUp form .inputDivs .inputOne .input {
   width: 170px;
-  height: 29px;
+  height: 33px;
   border: 1px solid gray;
   outline: none;
-  border-radius: 6px;
+  border-radius: 4px;
   padding-left: 10px;
 }
 
@@ -711,20 +728,21 @@ main .secondDiv .arithmeticScientific .arithScien .DEL:hover, main .secondDiv .a
 
 .mainContext .signUp form .username {
   margin-top: 20px;
+  margin-left: 30px;
   width: 100%;
   height: 40px;
 }
 
 .mainContext .signUp form .username .userInput {
   width: 368px;
-  height: 29px;
-  border-radius: 6px;
+  height: 33px;
+  border-radius: 4px;
   border: 1px solid gray;
   outline: none;
   padding-left: 10px;
 }
 
-.mainContext .signUp form .username .userInput:hover {
+.mainContext .signUp form .username .userInput:focus {
   border: 1px solid #5b5bff;
 }
 
@@ -732,31 +750,48 @@ main .secondDiv .arithmeticScientific .arithScien .DEL:hover, main .secondDiv .a
   margin-left: 20px;
 }
 
-.mainContext .signUp form .onlyButton {
-  margin-top: 60px;
-  margin-left: 140px;
-  padding: 10px;
+.mainContext .signUp form .creat {
+  position: relative;
+}
+
+.mainContext .signUp form .creat .onlyButton {
+  margin: 60px auto auto 170px;
+  padding: 13px;
   width: 130px;
   height: 40px;
   border: none;
   outline: none;
   border-radius: 5px;
-  background: #5b5bff;
+  background: white;
   cursor: pointer;
 }
 
-.mainContext .signUp form .onlyButton:hover {
-  background: #009dff;
+.mainContext .signUp form .creat .onlyButton a {
+  color: #5b5bff;
+  text-decoration: none;
+  font-size: 16px;
 }
 
-.mainContext .signUp form a {
+.mainContext .signUp form .creat .onButton {
+  position: absolute;
+  padding: 10px;
+  top: 105px;
+  left: 11rem;
+  height: 40px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  background: white;
+  cursor: pointer;
+}
+
+.mainContext .signUp form .creat .onButton a {
+  color: #5b5bff;
   text-decoration: none;
-  color: white;
-  font-size: 15px;
+  font-size: 16px;
 }
 
 .boddy {
-  background: #ffdda1;
   font-family: 'Catamaran', sans-serif;
 }
 
@@ -770,8 +805,8 @@ main .secondDiv .arithmeticScientific .arithScien .DEL:hover, main .secondDiv .a
   background: white;
   margin: 140px auto;
   border-radius: 8px;
-  -webkit-box-shadow: 1px 1px 1px 4px rgba(255, 176, 30, 0.127);
-          box-shadow: 1px 1px 1px 4px rgba(255, 176, 30, 0.127);
+  -webkit-box-shadow: 1px 1px 2px 1px rgba(116, 116, 116, 0.464);
+          box-shadow: 1px 1px 2px 1px rgba(116, 116, 116, 0.464);
 }
 
 .boddy main .form .singleDiv {
@@ -779,6 +814,8 @@ main .secondDiv .arithmeticScientific .arithScien .DEL:hover, main .secondDiv .a
   height: 60px;
   background: #5b5bff;
   border-radius: 5px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
 }
 
 .boddy main .form .singleDiv .headerLog {
@@ -801,11 +838,12 @@ main .secondDiv .arithmeticScientific .arithScien .DEL:hover, main .secondDiv .a
 }
 
 .boddy main .form .inputTiv {
-  margin: 50px auto auto 56px;
+  margin: 80px auto auto 56px;
   position: relative;
 }
 
-.boddy main .form .inputTiv .labelOne, .boddy main .form .inputTiv a {
+.boddy main .form .inputTiv .labelOne,
+.boddy main .form .inputTiv a {
   font-weight: 500;
 }
 
@@ -829,10 +867,10 @@ main .secondDiv .arithmeticScientific .arithScien .DEL:hover, main .secondDiv .a
 }
 
 .boddy main .form .firstBtn {
-  width: 320px;
+  width: 370px;
   text-decoration: none;
   padding: 10px;
-  margin: 50px auto auto 30px;
+  margin: 50px auto auto 0px;
   border-radius: 5px;
   outline: none;
   border: none;
@@ -849,10 +887,10 @@ main .secondDiv .arithmeticScientific .arithScien .DEL:hover, main .secondDiv .a
   padding: 10px;
   text-decoration: none;
   color: white;
+  font-size: 17px;
 }
 
 .boddy {
-  background: #ffdda1;
   font-family: 'Catamaran', sans-serif;
 }
 
@@ -861,13 +899,13 @@ main .secondDiv .arithmeticScientific .arithScien .DEL:hover, main .secondDiv .a
 }
 
 .boddy main .form {
-  width: 500px;
-  height: 350px;
+  width: 480px;
+  height: 600px;
   background: white;
-  margin: 140px auto;
+  margin: 30px auto;
   border-radius: 8px;
-  -webkit-box-shadow: 1px 1px 1px 4px rgba(255, 176, 30, 0.127);
-          box-shadow: 1px 1px 1px 4px rgba(255, 176, 30, 0.127);
+  -webkit-box-shadow: 1px 1px 2px 1px rgba(116, 116, 116, 0.464);
+          box-shadow: 1px 1px 2px 1px rgba(116, 116, 116, 0.464);
 }
 
 .boddy main .form .singleDiv {
@@ -875,6 +913,8 @@ main .secondDiv .arithmeticScientific .arithScien .DEL:hover, main .secondDiv .a
   height: 60px;
   background: #5b5bff;
   border-radius: 5px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
 }
 
 .boddy main .form .singleDiv .headerLog {
@@ -893,7 +933,8 @@ main .secondDiv .arithmeticScientific .arithScien .DEL:hover, main .secondDiv .a
 }
 
 .boddy main .form .singleDiv h3 {
-  margin-left: 190px;
+  font-size: 30px;
+  margin-left: 160px;
 }
 
 .boddy main .form .inpuTTiv {
@@ -901,7 +942,8 @@ main .secondDiv .arithmeticScientific .arithScien .DEL:hover, main .secondDiv .a
   position: relative;
 }
 
-.boddy main .form .inpuTTiv .labelOne, .boddy main .form .inpuTTiv a {
+.boddy main .form .inpuTTiv .labelOne,
+.boddy main .form .inpuTTiv a {
   font-weight: 500;
 }
 
@@ -925,10 +967,10 @@ main .secondDiv .arithmeticScientific .arithScien .DEL:hover, main .secondDiv .a
 }
 
 .boddy main .form .firstBttn {
-  width: 320px;
+  width: 370px;
   text-decoration: none;
-  padding: 10px;
-  margin: 40px auto auto 30px;
+  padding: 13px;
+  margin: 40px auto auto 0px;
   border-radius: 5px;
   outline: none;
   border: none;
@@ -945,6 +987,7 @@ main .secondDiv .arithmeticScientific .arithScien .DEL:hover, main .secondDiv .a
   padding: 10px;
   text-decoration: none;
   color: white;
+  font-size: 17px;
 }
 
 header {
@@ -1285,138 +1328,157 @@ footer .centerDiv nav ul li a:hover {
 }
 
 @media (max-width: 992px) {
-  .boddy {
-    background: #ffdda1;
+  header {
     font-family: 'Catamaran', sans-serif;
-  }
-  .boddy main {
     width: 100%;
-  }
-  .boddy main form {
-    width: 400px;
-    height: 500px;
-    background: blue;
-    margin: 60px auto;
-    border-radius: 8px;
-    -webkit-box-shadow: 1px 1px 1px 4px rgba(255, 176, 30, 0.127);
-            box-shadow: 1px 1px 1px 4px rgba(255, 176, 30, 0.127);
-  }
-  .boddy main form .singleDiv {
-    width: 100%;
-    height: 60px;
-    background: #5b5bff;
-    border-radius: 5px;
-  }
-  .boddy main form .singleDiv .headerLog {
-    width: 50px;
-    height: 50px;
-    border-radius: 30px;
-    margin: 10px auto;
+    height: 170px;
     position: relative;
-    top: 5px;
   }
-  .boddy main form .singleDiv .headerLog i {
-    font-size: 35px;
-    margin: 5px auto auto 10px;
-    color: white;
+  header .centerDiv {
+    width: 90%;
+    height: 70px;
+    margin: 10px auto;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
-  .boddy main form .inputDiv {
-    width: 350px;
-    height: 180px;
-    margin: 20px auto auto 35px;
+  header .centerDiv .logoDiv {
+    width: 70px;
+    height: 60px;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
-  .boddy main form .inputDiv .secondInput {
-    margin-top: 15px;
+  header .centerDiv .logoDiv img {
+    width: inherit;
+    height: 60px;
   }
-  .boddy main form .inputDiv .labelOne, .boddy main form .inputDiv a {
-    font-weight: 500;
+  header .centerDiv .icon {
+    display: none;
   }
-  .boddy main form .inputDiv .inputOne {
-    width: 300px;
-    padding: 12px;
-    outline: none;
-    border: 1px solid gray;
-    border-radius: 4px;
+  header .centerDiv nav {
+    margin-top: 20px;
     font-size: 16px;
   }
-  .boddy main form .inputDiv .inputOne:focus {
-    -webkit-transition: 0.3s;
-    transition: 0.3s;
-    border: 1px solid #5b5bff;
+  header .centerDiv nav ul li {
+    display: inline;
   }
-  .boddy main form .inputDiv p a {
-    text-decoration: none;
+  header .centerDiv nav ul li a {
     color: black;
-    font-weight: 600;
-  }
-  .boddy main form .inputDiv p a:hover {
-    color: #5b5bff;
-  }
-  .boddy main form .firstBtn {
-    width: 320px;
     text-decoration: none;
-    padding: 10px;
-    margin: 30px auto auto 35px;
-    border-radius: 5px;
-    outline: none;
-    border: none;
-    background: #5b5bff;
-    cursor: pointer;
+    margin-left: 10px;
   }
-  .boddy main form .firstBtn:hover {
-    background: #0365ac;
+  header .centerDiv nav ul li a:hover {
+    color: blue;
   }
-  .boddy main form .firstBtn a {
+  header .coverDiv {
     width: 100%;
-    padding: 10px;
-    text-decoration: none;
+    height: 60vh;
+    margin-top: -10px;
+    background-image: url(/Images/Background-pic.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  header .coverDiv img {
+    width: inherit;
+    height: inherit;
+  }
+  header .containerDiv {
+    width: 100%;
+    height: 60vh;
+    background: rgba(1, 1, 45, 0.631);
+    position: absolute;
+    top: 70px;
+    text-align: center;
     color: white;
   }
-  .boddy main form .paragraph {
+  header .containerDiv h1 {
+    font-size: 70px;
+    margin-top: 200px;
+    line-height: 80px;
+  }
+  header .containerDiv p {
+    font-size: 18px;
+  }
+  header .containerDiv button {
     margin-top: 20px;
-    margin-left: 100px;
-  }
-  .boddy main form .paragraph a {
-    text-decoration: none;
-    font-weight: 600;
-    color: #5b5bff;
-  }
-  .boddy main form span {
-    margin-left: 180px;
-  }
-  .boddy main form .facebookOr {
-    text-decoration: none;
-    margin-top: 20px;
-    margin-left: 30px;
-  }
-  .boddy main form .facebookOr .button {
-    text-decoration: none;
-    width: 160px;
-    outline: none;
     border: none;
-    border-radius: 6px;
-    padding: 11px;
-    font-size: 500;
+    outline: none;
+    padding: 8px 20px 8px 20px;
+    margin-left: 10px;
+    border-radius: 10px;
     cursor: pointer;
   }
-  .boddy main form .facebookOr a {
-    width: 160px;
-    text-decoration: none;
-    color: wheat;
-  }
-  .boddy main form .facebookOr #btn {
+  header .containerDiv button:hover {
     background: #5b5bff;
+  }
+  header .containerDiv button a {
+    text-decoration: none;
+    font-size: 19px;
+    color: black;
+  }
+  header .containerDiv button a:hover {
     color: white;
   }
-  .boddy main form .facebookOr #btn:hover {
-    background: #0365ac;
+  section .smallParagraph {
+    text-align: center;
+    width: 100%;
+    height: 30vh;
+    color: black;
+    position: absolute;
+    top: 600px;
   }
-  .boddy main form .facebookOr #buton {
-    background: red;
-    color: white;
+  section .smallParagraph h1 {
+    margin-top: 210px;
+    font-size: 50px;
+    font-family: 'Catamaran', sans-serif;
   }
-  .boddy main form .facebookOr #buton:hover {
-    background: #0365ac;
+  section .smallParagraph p {
+    font-family: 'Catamaran', sans-serif;
+    width: 50%;
+    margin-left: 190px;
+  }
+  footer {
+    width: 100%;
+    height: 9vh;
+    background: rgba(214, 214, 247, 0.249);
+    position: absolute;
+    top: 1070px;
+    font-family: 'Catamaran', sans-serif;
+  }
+  footer .centerDiv {
+    width: 90%;
+    height: 5vh;
+    margin: 10px auto;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  footer .centerDiv .logoDiv {
+    width: 80px;
+    height: inherit;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  footer .centerDiv nav {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  footer .centerDiv nav ul li {
+    display: inline;
+  }
+  footer .centerDiv nav ul li a {
+    color: black;
+    text-decoration: none;
+    margin-left: 10px;
+  }
+  footer .centerDiv nav ul li a:hover {
+    color: blue;
   }
 }
 
